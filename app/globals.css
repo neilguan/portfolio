@@ -47,7 +47,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-geist-sans), "Segoe UI", Arial, sans-serif;
+  font-family: var(--font-geist-sans), 'Segoe UI', Arial, sans-serif;
   line-height: 1.62;
 }
 
@@ -718,7 +718,10 @@ tbody td:nth-child(3) {
 
 .haptic-signal-flow {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) auto minmax(0, 1.1fr) minmax(0, 1.15fr);
+  grid-template-columns: minmax(0, 0.9fr) auto minmax(0, 1.1fr) minmax(
+      0,
+      1.15fr
+    );
   gap: 12px;
   align-items: center;
 }
@@ -770,6 +773,24 @@ tbody td:nth-child(3) {
 .flow-arrow {
   flex: none;
   color: #75d5d0;
+}
+
+.flow-bridge {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+  align-self: center;
+}
+
+.flow-bridge small {
+  color: #aebbc0;
+  font-family: var(--font-geist-mono), Consolas, monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .flow-outputs {

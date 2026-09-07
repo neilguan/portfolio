@@ -6,9 +6,11 @@ import {
   ArrowRight,
   BatteryCharging,
   Bluetooth,
-  Cpu,
+  CircuitBoard,
   FileText,
   Hammer,
+  KeyboardMusic,
+  Laptop,
   Lightbulb,
   MonitorCog,
   Music2,
@@ -59,27 +61,33 @@ const flightTestRows = [
   {
     flight: 'Software component test',
     purpose: 'Exercise one software component with controlled interfaces.',
-    engine: 'gentest, mattest, and tabletest isolate generation, materials, and lookup behavior.',
+    engine:
+      'gentest, mattest, and tabletest isolate generation, materials, and lookup behavior.',
   },
   {
     flight: 'Approved qualification harness / automated FQT',
-    purpose: 'Run repeatable requirement checks in a specialized, controlled rig.',
-    engine: 'alloctest and terrainagrees apply fixed stress envelopes and automated pass/fail oracles.',
+    purpose:
+      'Run repeatable requirement checks in a specialized, controlled rig.',
+    engine:
+      'alloctest and terrainagrees apply fixed stress envelopes and automated pass/fail oracles.',
   },
   {
     flight: 'Integrated ground test',
     purpose: 'Operate connected aircraft systems together before flight.',
-    engine: 'frametest runs the real headless GPU pipeline: residency, generation, meshing, allocation, and culling.',
+    engine:
+      'frametest runs the real headless GPU pipeline: residency, generation, meshing, allocation, and culling.',
   },
   {
     flight: 'Flight test',
     purpose: 'Exercise the complete vehicle while operating conditions change.',
-    engine: 'flytest moves through LOD transitions and streaming pressure for 1,800 frames.',
+    engine:
+      'flytest moves through LOD transitions and streaming pressure for 1,800 frames.',
   },
   {
     flight: 'Independent instrumentation',
     purpose: 'Verify the system with a separate measurement path.',
-    engine: 'CPU/GPU mirror checks and audit verify coverage, repeatability, and cross-implementation agreement.',
+    engine:
+      'CPU/GPU mirror checks and audit verify coverage, repeatability, and cross-implementation agreement.',
   },
 ];
 
@@ -99,10 +107,22 @@ const qwenLayers = [
 ];
 
 const longboardFacts = [
-  ['Power', '10S2P 18650 Li-ion pack, Flipsky ESC, XT90 anti-spark connector, and removable loop key.'],
-  ['Drivetrain', 'Single motor with gearing biased toward climbing torque instead of top speed for a hilly area.'],
-  ['Packaging', 'Foldable deck with a custom plastic enclosure heated into shape with a heat gun and cut on a bandsaw.'],
-  ['Evidence', 'The prototype survived several years of campus use—not just a bench test.'],
+  [
+    'Power',
+    '10S2P 18650 Li-ion pack, Flipsky ESC, XT90 anti-spark connector, and removable loop key.',
+  ],
+  [
+    'Drivetrain',
+    'Single motor with gearing biased toward climbing torque instead of top speed for a hilly area.',
+  ],
+  [
+    'Packaging',
+    'Foldable deck with a custom plastic enclosure heated into shape with a heat gun and cut on a bandsaw.',
+  ],
+  [
+    'Evidence',
+    'The prototype survived several years of campus use—not just a bench test.',
+  ],
 ];
 
 export default function Home() {
@@ -164,12 +184,13 @@ export default function Home() {
           <div>
             <h2 id="work-title">Beyond the one-shot Minecraft demo</h2>
             <p className="section-lede">
-              AI agents can one-shot Minecraft-looking demos. This is the systems
-              work beyond that first impression: a Minecraft-like world rebuilt
-              around cubic chunks, GPU rendering, and nine levels of detail so the
-              landscape can remain visible to the horizon while fast flight stays
-              near 200 FPS. The hard part is keeping that asynchronous,
-              AI-assisted pipeline fast, extensible, and correct while it moves.
+              AI agents can one-shot Minecraft-looking demos. This is the
+              systems work beyond that first impression: a Minecraft-like world
+              rebuilt around cubic chunks, GPU rendering, and nine levels of
+              detail so the landscape can remain visible to the horizon while
+              fast flight stays near 200 FPS. The hard part is keeping that
+              asynchronous, AI-assisted pipeline fast, extensible, and correct
+              while it moves.
             </p>
           </div>
         </div>
@@ -204,9 +225,12 @@ export default function Home() {
                     loading={index === 0 ? 'eager' : 'lazy'}
                   />
                   <figcaption>
-                    <span>{index + 1} / {voxelScenes.length}</span>
+                    <span>
+                      {index + 1} / {voxelScenes.length}
+                    </span>
                     <a href={scene.src} target="_blank" rel="noreferrer">
-                      Open full resolution <ArrowUpRight aria-hidden="true" size={15} />
+                      Open full resolution{' '}
+                      <ArrowUpRight aria-hidden="true" size={15} />
                     </a>
                   </figcaption>
                 </figure>
@@ -223,27 +247,56 @@ export default function Home() {
             <h3>From an infinite world to an AI-extensible one</h3>
             <p className="orchestration-lede">
               This is orchestration engineering: a Luna agent receives a bounded
-              brief, works unattended for roughly 24 hours, and returns a reviewed
-              batch of new biomes, structures, trees, and mobs through stable engine
-              extension points.
+              brief, works unattended for roughly 24 hours, and returns a
+              reviewed batch of new biomes, structures, trees, and mobs through
+              stable engine extension points.
             </p>
             <ol className="orchestration-steps">
-              <li><strong>Bound</strong><span>Assign one focused brief and one reserved module.</span></li>
-              <li><strong>Verify</strong><span>Return deterministic seeds, targeted tests, and visual evidence.</span></li>
-              <li><strong>Isolate</strong><span>Reject a failed branch without destabilizing the renderer or the rest of the batch.</span></li>
-              <li><strong>Repeat</strong><span>Run the same controlled process again to build effectively endless content.</span></li>
+              <li>
+                <strong>Bound</strong>
+                <span>Assign one focused brief and one reserved module.</span>
+              </li>
+              <li>
+                <strong>Verify</strong>
+                <span>
+                  Return deterministic seeds, targeted tests, and visual
+                  evidence.
+                </span>
+              </li>
+              <li>
+                <strong>Isolate</strong>
+                <span>
+                  Reject a failed branch without destabilizing the renderer or
+                  the rest of the batch.
+                </span>
+              </li>
+              <li>
+                <strong>Repeat</strong>
+                <span>
+                  Run the same controlled process again to build effectively
+                  endless content.
+                </span>
+              </li>
             </ol>
           </div>
           <div className="content-proof-grid">
             <figure>
-              <img src="./voxel-oak.jpg" alt="Generated old-growth oak integrated into the voxel world" loading="lazy" />
+              <img
+                src="./voxel-oak.jpg"
+                alt="Generated old-growth oak integrated into the voxel world"
+                loading="lazy"
+              />
               <figcaption>
                 <strong>Automatic structure generation</strong>
                 Seeded old-growth oak template
               </figcaption>
             </figure>
             <figure>
-              <img src="./mob-skin.jpg" alt="Review sheet for a code-generated Tideglass Cartographer mob skin" loading="lazy" />
+              <img
+                src="./mob-skin.jpg"
+                alt="Review sheet for a code-generated Tideglass Cartographer mob skin"
+                loading="lazy"
+              />
               <figcaption>
                 <strong>Automatic mob generation</strong>
                 Code-generated skin with multi-view review
@@ -253,21 +306,28 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="testing-section" id="testing" aria-labelledby="testing-title">
+      <section
+        className="testing-section"
+        id="testing"
+        aria-labelledby="testing-title"
+      >
         <div className="case-intro">
           <p className="eyebrow">Verification architecture</p>
           <h2 id="testing-title">Testing like a flight program</h2>
           <p>
-            This project was built heavily with Claude Code, Codex, and specialized
-            AI agents. That made verification more important: plausible GPU and
-            world-generation bugs can survive screenshots, demos, and ordinary unit
-            tests. The response was a ladder of increasingly realistic rigs.
+            This project was built heavily with Claude Code, Codex, and
+            specialized AI agents. That made verification more important:
+            plausible GPU and world-generation bugs can survive screenshots,
+            demos, and ordinary unit tests. The response was a ladder of
+            increasingly realistic rigs.
           </p>
         </div>
 
         <div className="table-wrap">
           <table>
-            <caption>Flight-program concepts translated into software verification</caption>
+            <caption>
+              Flight-program concepts translated into software verification
+            </caption>
             <thead>
               <tr>
                 <th scope="col">Flight program</th>
@@ -288,25 +348,35 @@ export default function Home() {
         </div>
 
         <p className="analogy-note">
-          <strong>Scope note:</strong> this is an engineering analogy. The mcgpu-v3
-          harnesses are not government-approved qualification equipment or formal
-          certification artifacts.
+          <strong>Scope note:</strong> this is an engineering analogy. The
+          mcgpu-v3 harnesses are not government-approved qualification equipment
+          or formal certification artifacts.
         </p>
 
-        <aside className="evidence-strip" aria-label="Representative verification result">
+        <aside
+          className="evidence-strip"
+          aria-label="Representative verification result"
+        >
           <ShieldCheck aria-hidden="true" size={27} strokeWidth={1.6} />
           <p>
             <strong>Representative mirror gate:</strong> 288 cubes, 4,010,650
-            non-sky voxels across all nine LODs, with zero CPU/GPU disagreements.
+            non-sky voxels across all nine LODs, with zero CPU/GPU
+            disagreements.
           </p>
         </aside>
       </section>
 
-      <section className="research-section" id="research" aria-labelledby="research-title">
+      <section
+        className="research-section"
+        id="research"
+        aria-labelledby="research-title"
+      >
         <div className="section-heading compact-heading centered-heading">
           <div>
             <p className="eyebrow">Published research</p>
-            <p className="project-kicker">Ubiquitous Robots 2024 · First author</p>
+            <p className="project-kicker">
+              Ubiquitous Robots 2024 · First author
+            </p>
           </div>
           <h2 id="research-title">Closing the sim-to-real gap</h2>
         </div>
@@ -323,22 +393,27 @@ export default function Home() {
             <div className="project-icon" aria-hidden="true">
               <FileText size={28} strokeWidth={1.6} />
             </div>
-            <h3>Impedance Matching: Enabling an RL-Based Running Jump in a Quadruped Robot</h3>
-            <p className="authors">Neil Guan, Shangqun Yu, Shifan Zhu, and Donghyun Kim</p>
+            <h3>
+              Impedance Matching: Enabling an RL-Based Running Jump in a
+              Quadruped Robot
+            </h3>
+            <p className="authors">
+              Neil Guan, Shangqun Yu, Shifan Zhu, and Donghyun Kim
+            </p>
             <p className="paper-deck">
               Reinforcement-learning policies can look capable in simulation and
-              become inconsistent on hardware because the simulated joints do not
-              respond like the real machine. We measured that mismatch, tuned the
-              simulation to the evidence, and transferred a running-jump policy to a
-              12 kg Mini-Cheetah Vision robot.
+              become inconsistent on hardware because the simulated joints do
+              not respond like the real machine. We measured that mismatch,
+              tuned the simulation to the evidence, and transferred a
+              running-jump policy to a 12 kg Mini-Cheetah Vision robot.
             </p>
 
             <p className="publication-record">
-              This is not a private project report. It was reviewed and accepted as
-              a regular paper at the 2024 21st International Conference on Ubiquitous
-              Robots, then published in IEEE Xplore. It is part of the field&apos;s shared
-              research record: work that other researchers can inspect, cite, test,
-              and build upon.
+              This is not a private project report. It was reviewed and accepted
+              as a regular paper at the 2024 21st International Conference on
+              Ubiquitous Robots, then published in IEEE Xplore. It is part of
+              the field&apos;s shared research record: work that other
+              researchers can inspect, cite, test, and build upon.
             </p>
 
             <figure className="paper-figure paper-figure-jump">
@@ -348,8 +423,8 @@ export default function Home() {
                 loading="lazy"
               />
               <figcaption>
-                Published Figure 1 · The learned policy transitions from running to a
-                physical jump and landing on the real robot.
+                Published Figure 1 · The learned policy transitions from running
+                to a physical jump and landing on the real robot.
               </figcaption>
             </figure>
 
@@ -362,21 +437,30 @@ export default function Home() {
                     <span>01</span>
                     <div>
                       <strong>Excite the real joints</strong>
-                      <p>A 0.1–25 Hz chirp test records how each joint follows a commanded motion.</p>
+                      <p>
+                        A 0.1–25 Hz chirp test records how each joint follows a
+                        commanded motion.
+                      </p>
                     </div>
                   </li>
                   <li>
                     <span>02</span>
                     <div>
                       <strong>Match the simulation</strong>
-                      <p>Bode magnitude plots and a 50 × 50 gain search identify simulated PD gains with similar bandwidth and overshoot.</p>
+                      <p>
+                        Bode magnitude plots and a 50 × 50 gain search identify
+                        simulated PD gains with similar bandwidth and overshoot.
+                      </p>
                     </div>
                   </li>
                   <li>
                     <span>03</span>
                     <div>
                       <strong>Randomize around evidence</strong>
-                      <p>The measured values and variance define focused training ranges before the policy touches the robot.</p>
+                      <p>
+                        The measured values and variance define focused training
+                        ranges before the policy touches the robot.
+                      </p>
                     </div>
                   </li>
                 </ol>
@@ -384,19 +468,21 @@ export default function Home() {
 
               <aside className="field-impact" aria-labelledby="impact-title">
                 <p className="paper-label">Why it matters to robotics</p>
-                <h4 id="impact-title">It replaces a tuning guess with an experiment.</h4>
+                <h4 id="impact-title">
+                  It replaces a tuning guess with an experiment.
+                </h4>
                 <p>
                   Domain randomization is often chosen by intuition: vary enough
-                  simulated properties and hope reality falls inside the range. Ranges
-                  that are too broad or centered on the wrong model can make learning
-                  harder and transfer less consistent.
+                  simulated properties and hope reality falls inside the range.
+                  Ranges that are too broad or centered on the wrong model can
+                  make learning harder and transfer less consistent.
                 </p>
                 <p>
-                  Impedance matching connects classical frequency-response measurement
-                  with modern robot learning. It gives researchers a repeatable basis
-                  for deciding what the simulator should reproduce and how much
-                  uncertainty training should cover—reducing risky trial-and-error on
-                  physical hardware.
+                  Impedance matching connects classical frequency-response
+                  measurement with modern robot learning. It gives researchers a
+                  repeatable basis for deciding what the simulator should
+                  reproduce and how much uncertainty training should
+                  cover—reducing risky trial-and-error on physical hardware.
                 </p>
               </aside>
             </div>
@@ -408,21 +494,36 @@ export default function Home() {
                 loading="lazy"
               />
               <figcaption>
-                Published Figure 2 · Real and simulated joints are compared in the
-                frequency domain; the best-fit simulation follows the measured robot
-                near its natural frequency.
+                Published Figure 2 · Real and simulated joints are compared in
+                the frequency domain; the best-fit simulation follows the
+                measured robot near its natural frequency.
               </figcaption>
             </figure>
 
-            <div className="research-contribution" aria-labelledby="contribution-title">
+            <div
+              className="research-contribution"
+              aria-labelledby="contribution-title"
+            >
               <div>
                 <p className="paper-label">What the field gained</p>
-                <h4 id="contribution-title">A method, a modeling result, and a reusable training strategy</h4>
+                <h4 id="contribution-title">
+                  A method, a modeling result, and a reusable training strategy
+                </h4>
               </div>
               <ul>
-                <li>A frequency-domain procedure for selecting simulation gains and defensible domain-randomization bounds.</li>
-                <li>Evidence that modeled rotor inertia is essential to reproducing the hardware&apos;s high-frequency response.</li>
-                <li>A modified Net2Net curriculum that adds jumping while preserving an existing walking skill, without reference motions.</li>
+                <li>
+                  A frequency-domain procedure for selecting simulation gains
+                  and defensible domain-randomization bounds.
+                </li>
+                <li>
+                  Evidence that modeled rotor inertia is essential to
+                  reproducing the hardware&apos;s high-frequency response.
+                </li>
+                <li>
+                  A modified Net2Net curriculum that adds jumping while
+                  preserving an existing walking skill, without reference
+                  motions.
+                </li>
               </ul>
             </div>
 
@@ -446,33 +547,67 @@ export default function Home() {
             </dl>
             <div className="paper-footer">
               <div>
-                <strong><span aria-live="polite">{citationCount}</span> tracked citations</strong>
+                <strong>
+                  <span aria-live="polite">{citationCount}</span> tracked
+                  citations
+                </strong>
                 <p className="citation-note">
-                  Refreshes from Semantic Scholar when its index reports a higher total{citationChecked ? ' · index checked' : ''}.
+                  Refreshes from Semantic Scholar when its index reports a
+                  higher total{citationChecked ? ' · index checked' : ''}.
                 </p>
               </div>
               <div className="paper-links">
-                <a className="project-link" href="https://ieeexplore.ieee.org/document/10597522" target="_blank" rel="noreferrer">
-                  View the IEEE publication <ArrowUpRight aria-hidden="true" size={17} />
+                <a
+                  className="project-link"
+                  href="https://ieeexplore.ieee.org/document/10597522"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View the IEEE publication{' '}
+                  <ArrowUpRight aria-hidden="true" size={17} />
                 </a>
-                <a className="project-link" href="https://arxiv.org/abs/2404.15096" target="_blank" rel="noreferrer">
-                  Read the open paper <ArrowUpRight aria-hidden="true" size={17} />
+                <a
+                  className="project-link"
+                  href="https://arxiv.org/abs/2404.15096"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Read the open paper{' '}
+                  <ArrowUpRight aria-hidden="true" size={17} />
                 </a>
               </div>
             </div>
           </div>
 
           <div className="video-grid" aria-label="Research demonstrations">
-            <a className="video-card" href="https://www.youtube.com/watch?v=sz7GK5xcZuk" target="_blank" rel="noreferrer">
-              <img src="./robot-robustness.jpg" alt="A quadruped robot resisting a physical kick during a robustness test" loading="lazy" />
+            <a
+              className="video-card"
+              href="https://www.youtube.com/watch?v=sz7GK5xcZuk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./robot-robustness.jpg"
+                alt="A quadruped robot resisting a physical kick during a robustness test"
+                loading="lazy"
+              />
               <span>
                 <strong>Kicking a robot dog to demonstrate adaptability</strong>
                 <small>Robustness test · YouTube</small>
               </span>
               <ArrowUpRight aria-hidden="true" size={17} />
             </a>
-            <a className="video-card" href="https://www.youtube.com/watch?v=gfBKeheAI8Y" target="_blank" rel="noreferrer">
-              <img src="./sim-to-real.jpg" alt="A quadruped robot performing a learned running jump" loading="lazy" />
+            <a
+              className="video-card"
+              href="https://www.youtube.com/watch?v=gfBKeheAI8Y"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./sim-to-real.jpg"
+                alt="A quadruped robot performing a learned running jump"
+                loading="lazy"
+              />
               <span>
                 <strong>The robot dog jumps: sim-to-real transfer</strong>
                 <small>Running-jump test · YouTube</small>
@@ -483,7 +618,11 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="project-section" id="systems" aria-labelledby="systems-title">
+      <section
+        className="project-section"
+        id="systems"
+        aria-labelledby="systems-title"
+      >
         <div className="section-heading compact-heading centered-heading">
           <div>
             <p className="eyebrow">Local AI infrastructure</p>
@@ -499,7 +638,9 @@ export default function Home() {
               alt="Qwen Dashboard showing server controls, RTX 3090 telemetry, and six local client harnesses"
               loading="lazy"
             />
-            <figcaption>Native Windows control center · live operating view</figcaption>
+            <figcaption>
+              Native Windows control center · live operating view
+            </figcaption>
           </figure>
           <div className="qwen-copy">
             <div className="project-icon" aria-hidden="true">
@@ -508,11 +649,15 @@ export default function Home() {
             <h3>An operations layer around a proven open-source server</h3>
             <p>
               The project builds on{' '}
-              <a href="https://github.com/syv-ai/qwen38-27b-rtx3090" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/syv-ai/qwen38-27b-rtx3090"
+                target="_blank"
+                rel="noreferrer"
+              >
                 syv-ai/qwen38-27b-rtx3090
               </a>
-              , then adds the Windows-side controls needed to operate it as a daily
-              development service rather than a collection of commands.
+              , then adds the Windows-side controls needed to operate it as a
+              daily development service rather than a collection of commands.
             </p>
           </div>
           <div className="architecture-list">
@@ -526,13 +671,21 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="haptics-section" id="haptics" aria-labelledby="haptics-title">
+      <section
+        className="haptics-section"
+        id="haptics"
+        aria-labelledby="haptics-title"
+      >
         <div className="section-heading compact-heading centered-heading">
           <div>
             <p className="eyebrow">Senior design</p>
-            <p className="project-kicker">Wearable haptics · embedded systems</p>
+            <p className="project-kicker">
+              Wearable haptics · embedded systems
+            </p>
           </div>
-          <h2 id="haptics-title">Piano gloves that teach the right fingering</h2>
+          <h2 id="haptics-title">
+            Piano gloves that teach the right fingering
+          </h2>
         </div>
 
         <article className="haptics-card">
@@ -543,62 +696,145 @@ export default function Home() {
               </div>
               <h3>Turning a MIDI score into finger-by-finger physical cues</h3>
               <p>
-                Our team built two wearable gloves with five haptic actuators per
-                hand. The system paired vibration cues with an illuminated keyboard
-                so a learner could associate each note with the intended finger and
-                key.
+                Our team built two wearable gloves with five haptic actuators
+                per hand. The system paired vibration cues with an illuminated
+                keyboard so a learner could associate each note with the
+                intended finger and key. A laptop ran the Python controller,
+                served as the display, read the keyboard&apos;s MIDI events,
+                drove the separate LED strip, and connected over Bluetooth to
+                the hands.
               </p>
 
               <p className="role-label">My contribution</p>
               <ul className="contribution-list" aria-label="My contributions">
-                <li><strong>Automatic fingering</strong><span>Generated finger assignments from the score using prior statistical piano-fingering research.</span></li>
-                <li><strong>Interface and visuals</strong><span>Designed the learning UI and synchronized visual feedback.</span></li>
-                <li><strong>Desktop integration</strong><span>Connected MIDI playback, generated fingering, the UI, and Bluetooth LE messaging on the computer side.</span></li>
+                <li>
+                  <strong>Automatic fingering</strong>
+                  <span>
+                    Generated finger assignments from the score using prior
+                    statistical piano-fingering research.
+                  </span>
+                </li>
+                <li>
+                  <strong>Interface and visuals</strong>
+                  <span>
+                    Designed the learning UI and synchronized visual feedback.
+                  </span>
+                </li>
+                <li>
+                  <strong>Desktop integration</strong>
+                  <span>
+                    Connected the keyboard&apos;s MIDI input, Python control
+                    logic, display, LED-strip output, and Bluetooth messaging.
+                  </span>
+                </li>
               </ul>
 
               <p className="team-scope">
-                <strong>Team scope:</strong> My teammates led the initial system and
-                hardware design, combined controller/power PCB, transistor drivers,
-                LED-strip integration, and ATmega328P firmware.
+                <strong>Team scope:</strong> My teammates led the initial system
+                and hardware design, separate power-board and LED-strip
+                assembly, transistor drivers, and ATmega328P firmware for the
+                hands.
               </p>
 
-              <a className="project-link" href="https://arxiv.org/abs/1904.10237" target="_blank" rel="noreferrer">
-                Fingering-generation research basis <ArrowUpRight aria-hidden="true" size={17} />
+              <a
+                className="project-link"
+                href="https://arxiv.org/abs/1904.10237"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Fingering-generation research basis{' '}
+                <ArrowUpRight aria-hidden="true" size={17} />
               </a>
             </div>
 
             <figure className="haptic-diagram">
-              <figcaption>Control and power architecture</figcaption>
+              <figcaption>
+                Laptop control, MIDI, and hardware interfaces
+              </figcaption>
 
-              <div className="haptic-signal-flow" aria-label="Bluetooth signal flows to the microcontroller, then to the lights and haptic actuators">
+              <div
+                className="haptic-signal-flow"
+                aria-label="The keyboard sends MIDI key events to a laptop running the Python controller and display; the laptop drives a separate LED strip, connects over Bluetooth to the haptic hands, and interfaces with separate power hardware"
+              >
                 <div className="flow-inputs">
                   <div className="flow-node">
+                    <KeyboardMusic aria-hidden="true" size={24} />
+                    <span>
+                      <strong>Keyboard</strong>
+                      <small>MIDI key events into the laptop</small>
+                    </span>
+                  </div>
+                  <div className="flow-node">
                     <Bluetooth aria-hidden="true" size={24} />
-                    <span><strong>Bluefruit LE UART Friend</strong><small>Bluetooth cue transport</small></span>
+                    <span>
+                      <strong>Bluetooth hands link</strong>
+                      <small>Haptic cue transport</small>
+                    </span>
                   </div>
                   <div className="flow-node flow-node-power">
                     <BatteryCharging aria-hidden="true" size={24} />
-                    <span><strong>Power input</strong><small>Feeds control and actuator rails</small></span>
+                    <span>
+                      <strong>General lithium-ion battery</strong>
+                      <small>Portable power for prototype hardware</small>
+                    </span>
                   </div>
                 </div>
-                <ArrowRight className="flow-arrow flow-arrow-main" aria-hidden="true" size={24} />
+                <div className="flow-bridge">
+                  <ArrowRight
+                    className="flow-arrow flow-arrow-main"
+                    aria-hidden="true"
+                    size={24}
+                  />
+                  <small>MIDI + cues</small>
+                </div>
                 <div className="flow-node flow-node-core">
-                  <Cpu aria-hidden="true" size={24} />
-                  <span><strong>Combined controller + power PCB</strong><small>ATmega328P · power supply · transistor drivers</small></span>
+                  <Laptop aria-hidden="true" size={24} />
+                  <span>
+                    <strong>Laptop controller</strong>
+                    <small>Python system · display · cue routing</small>
+                  </span>
                 </div>
                 <div className="flow-outputs">
                   <div className="flow-output">
-                    <ArrowRight className="flow-arrow" aria-hidden="true" size={22} />
+                    <ArrowRight
+                      className="flow-arrow"
+                      aria-hidden="true"
+                      size={22}
+                    />
                     <div className="flow-node">
                       <Lightbulb aria-hidden="true" size={22} />
-                      <span><strong>LED strip</strong><small>Visual key guidance</small></span>
+                      <span>
+                        <strong>Separate LED strip</strong>
+                        <small>Laptop-driven key guidance</small>
+                      </span>
                     </div>
                   </div>
                   <div className="flow-output">
-                    <ArrowRight className="flow-arrow" aria-hidden="true" size={22} />
+                    <ArrowRight
+                      className="flow-arrow"
+                      aria-hidden="true"
+                      size={22}
+                    />
                     <div className="flow-node">
                       <Vibrate aria-hidden="true" size={22} />
-                      <span><strong>5 haptic actuators per glove</strong><small>One tactile cue per finger</small></span>
+                      <span>
+                        <strong>Bluetooth haptic hands</strong>
+                        <small>Five actuators per glove</small>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="flow-output">
+                    <ArrowRight
+                      className="flow-arrow"
+                      aria-hidden="true"
+                      size={22}
+                    />
+                    <div className="flow-node flow-node-power">
+                      <CircuitBoard aria-hidden="true" size={22} />
+                      <span>
+                        <strong>Separate power PCB</strong>
+                        <small>Independent hardware power path</small>
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -606,17 +842,38 @@ export default function Home() {
             </figure>
           </div>
 
-          <div className="haptic-video-grid" aria-label="Senior design demonstrations">
-            <a className="video-card" href="https://www.youtube.com/watch?v=ba2V4k7YSqk" target="_blank" rel="noreferrer">
-              <img src="./haptic-glove-review.jpg" alt="Haptic piano gloves operating beside a keyboard and laptop" loading="lazy" />
+          <div
+            className="haptic-video-grid"
+            aria-label="Senior design demonstrations"
+          >
+            <a
+              className="video-card"
+              href="https://www.youtube.com/watch?v=ba2V4k7YSqk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./haptic-glove-review.jpg"
+                alt="Haptic piano gloves operating beside a keyboard and laptop"
+                loading="lazy"
+              />
               <span>
                 <strong>Senior design system review</strong>
                 <small>Integrated prototype · YouTube</small>
               </span>
               <ArrowUpRight aria-hidden="true" size={17} />
             </a>
-            <a className="video-card" href="https://www.youtube.com/watch?v=q3hkdprkflE" target="_blank" rel="noreferrer">
-              <img src="./haptic-glove-demo.jpg" alt="Keyboard, laptop, and haptic glove electronics during a prototype demonstration" loading="lazy" />
+            <a
+              className="video-card"
+              href="https://www.youtube.com/watch?v=q3hkdprkflE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./haptic-glove-demo.jpg"
+                alt="Keyboard, laptop, and haptic glove electronics during a prototype demonstration"
+                loading="lazy"
+              />
               <span>
                 <strong>Haptic glove and light-guidance demo</strong>
                 <small>Hardware demonstration · YouTube</small>
@@ -627,13 +884,19 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="hardware-section" id="hardware" aria-labelledby="hardware-title">
+      <section
+        className="hardware-section"
+        id="hardware"
+        aria-labelledby="hardware-title"
+      >
         <div className="section-heading compact-heading centered-heading">
           <div>
             <p className="eyebrow">Hardware</p>
             <p className="project-kicker">Mechanical + electrical</p>
           </div>
-          <h2 id="hardware-title">A foldable electric longboard built for hills</h2>
+          <h2 id="hardware-title">
+            A foldable electric longboard built for hills
+          </h2>
         </div>
 
         <article className="longboard-card">
@@ -657,11 +920,24 @@ export default function Home() {
           </div>
           <div className="longboard-media">
             <figure className="longboard-photo">
-              <img src="./longboard.jpg" alt="Electric longboard drivetrain, motor, wiring, and custom electronics enclosure during assembly" loading="lazy" />
+              <img
+                src="./longboard.jpg"
+                alt="Electric longboard drivetrain, motor, wiring, and custom electronics enclosure during assembly"
+                loading="lazy"
+              />
               <figcaption>Build-stage documentation</figcaption>
             </figure>
-            <a className="video-card longboard-video" href="https://www.youtube.com/shorts/kVKNfx2d_TU" target="_blank" rel="noreferrer">
-              <img src="./longboard-test.jpg" alt="Electric longboard drivetrain operating during a test" loading="lazy" />
+            <a
+              className="video-card longboard-video"
+              href="https://www.youtube.com/shorts/kVKNfx2d_TU"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./longboard-test.jpg"
+                alt="Electric longboard drivetrain operating during a test"
+                loading="lazy"
+              />
               <span>
                 <strong>Watch the drivetrain test</strong>
                 <small>Bench test · YouTube</small>
@@ -672,21 +948,29 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="ai-section" id="workflow" aria-labelledby="workflow-title">
+      <section
+        className="ai-section"
+        id="workflow"
+        aria-labelledby="workflow-title"
+      >
         <p className="eyebrow">How I work</p>
         <div className="ai-grid">
-          <h2 id="workflow-title">I use AI heavily—and verify what it produces.</h2>
+          <h2 id="workflow-title">
+            I use AI heavily—and verify what it produces.
+          </h2>
           <div>
             <p>
-              Claude Code built substantial parts of the voxel renderer and pipeline.
-              Codex and Sol/Luna agents contributed terrain, content tooling, debugging,
-              and iteration. I define the architecture, constraints, acceptance criteria,
-              test strategy, integration decisions, and what is allowed to ship.
+              Claude Code built substantial parts of the voxel renderer and
+              pipeline. Codex and Sol/Luna agents contributed terrain, content
+              tooling, debugging, and iteration. I define the architecture,
+              constraints, acceptance criteria, test strategy, integration
+              decisions, and what is allowed to ship.
             </p>
             <p>
-              The flight-test-inspired harnesses are a direct response to that workflow:
-              AI increases implementation speed, so independent checks must increase the
-              confidence that speed did not hide a plausible-looking systems bug.
+              The flight-test-inspired harnesses are a direct response to that
+              workflow: AI increases implementation speed, so independent checks
+              must increase the confidence that speed did not hide a
+              plausible-looking systems bug.
             </p>
           </div>
         </div>
@@ -694,7 +978,9 @@ export default function Home() {
 
       <footer>
         <span>Neil Guan</span>
-        <span>GPU systems · Robotics · Wearable haptics · Applied AI · Hardware</span>
+        <span>
+          GPU systems · Robotics · Wearable haptics · Applied AI · Hardware
+        </span>
         <a href="#top">Back to top ↑</a>
       </footer>
     </main>
