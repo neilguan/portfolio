@@ -7,6 +7,7 @@ import {
   BatteryCharging,
   Bluetooth,
   CircuitBoard,
+  Cpu,
   FileText,
   Hammer,
   KeyboardMusic,
@@ -699,10 +700,10 @@ export default function Home() {
                 Our team built two wearable gloves with five haptic actuators
                 per hand. The system paired vibration cues with an illuminated
                 keyboard so a learner could associate each note with the
-                intended finger and key. A laptop ran the Python controller,
-                served as the display, read the keyboard&apos;s MIDI events,
-                drove the separate LED strip, and connected over Bluetooth to
-                the hands.
+                intended finger and key. The laptop ran the Python controller
+                and served as the display: it read the keyboard&apos;s MIDI
+                events, drove the separate LED strip, and connected over
+                Bluetooth to the hands&apos; ATmega328P controller.
               </p>
 
               <p className="role-label">My contribution</p>
@@ -731,9 +732,9 @@ export default function Home() {
 
               <p className="team-scope">
                 <strong>Team scope:</strong> My teammates led the initial system
-                and hardware design, separate power-board and LED-strip
-                assembly, transistor drivers, and ATmega328P firmware for the
-                hands.
+                and hardware design, the ATmega328P glove controller, actuator
+                drivers, and LED-strip integration. The exact role of the power
+                PCB is marked as uncertain in the architecture below.
               </p>
 
               <a
@@ -754,88 +755,99 @@ export default function Home() {
 
               <div
                 className="haptic-signal-flow"
-                aria-label="The keyboard sends MIDI key events to a laptop running the Python controller and display; the laptop drives a separate LED strip, connects over Bluetooth to the haptic hands, and interfaces with separate power hardware"
+                aria-label="The keyboard sends MIDI key events to a laptop running the Python controller and display; the laptop drives a separate LED strip and connects over Bluetooth to an ATmega328P controller on the haptic hands; a general lithium-ion battery powers only the ATmega328P, while the power PCB may be a step-down converter associated with the Bluetooth controller"
               >
-                <div className="flow-inputs">
+                <div className="architecture-row">
                   <div className="flow-node">
                     <KeyboardMusic aria-hidden="true" size={24} />
                     <span>
                       <strong>Keyboard</strong>
-                      <small>MIDI key events into the laptop</small>
+                      <small>MIDI key events</small>
                     </span>
+                  </div>
+                  <div className="flow-bridge">
+                    <ArrowRight
+                      className="flow-arrow"
+                      aria-hidden="true"
+                      size={24}
+                    />
+                    <small>MIDI</small>
+                  </div>
+                  <div className="flow-node flow-node-core">
+                    <Laptop aria-hidden="true" size={24} />
+                    <span>
+                      <strong>Laptop controller</strong>
+                      <small>Python system · display</small>
+                    </span>
+                  </div>
+                  <div className="flow-bridge">
+                    <ArrowRight
+                      className="flow-arrow"
+                      aria-hidden="true"
+                      size={24}
+                    />
+                    <small>LED data</small>
                   </div>
                   <div className="flow-node">
-                    <Bluetooth aria-hidden="true" size={24} />
+                    <Lightbulb aria-hidden="true" size={24} />
                     <span>
-                      <strong>Bluetooth hands link</strong>
-                      <small>Haptic cue transport</small>
+                      <strong>Separate LED strip</strong>
+                      <small>Right-key illumination</small>
                     </span>
                   </div>
+                </div>
+                <div className="architecture-row architecture-row-wireless">
+                  <div className="flow-node flow-node-core">
+                    <Laptop aria-hidden="true" size={24} />
+                    <span>
+                      <strong>Laptop controller</strong>
+                      <small>Bluetooth host</small>
+                    </span>
+                  </div>
+                  <div className="flow-bridge">
+                    <Bluetooth aria-hidden="true" size={22} />
+                    <small>Bluetooth</small>
+                  </div>
+                  <div className="flow-node flow-node-core">
+                    <Cpu aria-hidden="true" size={24} />
+                    <span>
+                      <strong>ATmega328P controller</strong>
+                      <small>On the Bluetooth haptic hands</small>
+                    </span>
+                  </div>
+                  <div className="flow-bridge">
+                    <ArrowRight
+                      className="flow-arrow"
+                      aria-hidden="true"
+                      size={24}
+                    />
+                    <small>Haptic drive</small>
+                  </div>
+                  <div className="flow-node">
+                    <Vibrate aria-hidden="true" size={24} />
+                    <span>
+                      <strong>Haptic actuators</strong>
+                      <small>Five per glove</small>
+                    </span>
+                  </div>
+                </div>
+                <div className="architecture-support">
                   <div className="flow-node flow-node-power">
                     <BatteryCharging aria-hidden="true" size={24} />
                     <span>
                       <strong>General lithium-ion battery</strong>
-                      <small>Portable power for prototype hardware</small>
+                      <small>Power to the ATmega328P only</small>
                     </span>
                   </div>
-                </div>
-                <div className="flow-bridge">
-                  <ArrowRight
-                    className="flow-arrow flow-arrow-main"
-                    aria-hidden="true"
-                    size={24}
-                  />
-                  <small>MIDI + cues</small>
-                </div>
-                <div className="flow-node flow-node-core">
-                  <Laptop aria-hidden="true" size={24} />
-                  <span>
-                    <strong>Laptop controller</strong>
-                    <small>Python system · display · cue routing</small>
-                  </span>
-                </div>
-                <div className="flow-outputs">
-                  <div className="flow-output">
-                    <ArrowRight
-                      className="flow-arrow"
-                      aria-hidden="true"
-                      size={22}
-                    />
-                    <div className="flow-node">
-                      <Lightbulb aria-hidden="true" size={22} />
-                      <span>
-                        <strong>Separate LED strip</strong>
-                        <small>Laptop-driven key guidance</small>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flow-output">
-                    <ArrowRight
-                      className="flow-arrow"
-                      aria-hidden="true"
-                      size={22}
-                    />
-                    <div className="flow-node">
-                      <Vibrate aria-hidden="true" size={22} />
-                      <span>
-                        <strong>Bluetooth haptic hands</strong>
-                        <small>Five actuators per glove</small>
-                      </span>
-                    </div>
-                  </div>
-                  <div className="flow-output">
-                    <ArrowRight
-                      className="flow-arrow"
-                      aria-hidden="true"
-                      size={22}
-                    />
-                    <div className="flow-node flow-node-power">
-                      <CircuitBoard aria-hidden="true" size={22} />
-                      <span>
-                        <strong>Separate power PCB</strong>
-                        <small>Independent hardware power path</small>
-                      </span>
-                    </div>
+                  <div className="flow-node flow-node-uncertain">
+                    <CircuitBoard aria-hidden="true" size={24} />
+                    <span>
+                      <strong>Power PCB</strong>
+                      <small>
+                        Possibly a step-down converter on the Bluetooth
+                        controller; exact role unconfirmed
+                      </small>
+                    </span>
                   </div>
                 </div>
               </div>

@@ -718,17 +718,22 @@ tbody td:nth-child(3) {
 
 .haptic-signal-flow {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) auto minmax(0, 1.1fr) minmax(
+  gap: 16px;
+}
+
+.architecture-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.12fr) auto minmax(
       0,
-      1.15fr
+      1fr
     );
-  gap: 12px;
+  gap: 10px;
   align-items: center;
 }
 
-.flow-inputs {
-  display: grid;
-  gap: 12px;
+.architecture-row-wireless {
+  padding-top: 16px;
+  border-top: 1px solid #42535d;
 }
 
 .flow-node {
@@ -793,16 +798,21 @@ tbody td:nth-child(3) {
   white-space: nowrap;
 }
 
-.flow-outputs {
+.architecture-support {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid #42535d;
 }
 
-.flow-output {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 10px;
-  align-items: center;
+.flow-node-uncertain {
+  border-color: #8e9d6c;
+  border-style: dashed;
+}
+
+.flow-node-uncertain svg {
+  color: #c7d895;
 }
 
 .flow-node-power {
@@ -811,6 +821,13 @@ tbody td:nth-child(3) {
 
 .flow-node-power svg {
   color: #c7d895;
+}
+
+.flow-output {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
 }
 
 .haptic-video-grid {
@@ -1388,17 +1405,27 @@ footer a {
     border-right: 0;
   }
 
-  .haptic-signal-flow {
+  .architecture-row {
     grid-template-columns: 1fr;
+    gap: 8px;
   }
 
-  .flow-arrow-main {
-    justify-self: center;
+  .architecture-row-wireless {
+    padding-top: 14px;
+  }
+
+  .architecture-row .flow-bridge {
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .architecture-row .flow-bridge .flow-arrow {
     transform: rotate(90deg);
   }
 
-  .flow-outputs {
-    gap: 10px;
+  .architecture-support {
+    grid-template-columns: 1fr;
   }
 
   .haptic-video-grid {
