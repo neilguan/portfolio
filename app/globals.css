@@ -716,59 +716,84 @@ tbody td:nth-child(3) {
   text-transform: uppercase;
 }
 
-.haptic-signal-flow {
+.architecture-map {
   display: grid;
-  gap: 16px;
+  grid-template-columns:
+    minmax(0, 1fr) 48px minmax(0, 1.12fr) 48px
+    minmax(0, 1fr);
+  gap: 8px;
+  align-items: stretch;
 }
 
-.architecture-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.12fr) auto minmax(
-      0,
-      1fr
-    );
-  gap: 10px;
-  align-items: center;
+.architecture-keyboard,
+.architecture-midi,
+.architecture-laptop,
+.architecture-led-bridge,
+.architecture-led-strip {
+  grid-row: 1;
 }
 
-.architecture-row-wireless {
-  grid-template-columns: minmax(0, 1.25fr) auto minmax(0, 1fr) auto minmax(
-      0,
-      0.9fr
-    );
-  padding-top: 16px;
-  border-top: 1px solid #42535d;
+.architecture-keyboard,
+.architecture-battery,
+.architecture-input-power,
+.architecture-power-pcb {
+  grid-column: 1;
 }
 
-.architecture-branch {
-  display: grid;
-  gap: 10px;
+.architecture-midi,
+.architecture-regulated-power {
+  grid-column: 2;
 }
 
-.architecture-branch-arrow {
-  display: grid;
-  justify-items: center;
-  gap: 4px;
-  color: #75d5d0;
+.architecture-laptop,
+.architecture-laptop-bluefruit,
+.architecture-bluefruit,
+.architecture-uart,
+.architecture-controller {
+  grid-column: 3;
 }
 
-.architecture-branch-arrow small {
-  color: #aebbc0;
-  font-family: var(--font-geist-mono), Consolas, monospace;
-  font-size: 0.58rem;
-  letter-spacing: 0.06em;
-  line-height: 1.2;
-  text-align: center;
-  text-transform: uppercase;
-  white-space: nowrap;
+.architecture-led-bridge,
+.architecture-haptic-bridge {
+  grid-column: 4;
+}
+
+.architecture-led-strip,
+.architecture-actuators {
+  grid-column: 5;
+}
+
+.architecture-laptop-bluefruit {
+  grid-row: 2;
+}
+
+.architecture-bluefruit,
+.architecture-battery {
+  grid-row: 3;
+}
+
+.architecture-uart,
+.architecture-input-power {
+  grid-row: 4;
+}
+
+.architecture-controller,
+.architecture-haptic-bridge,
+.architecture-actuators,
+.architecture-power-pcb,
+.architecture-regulated-power {
+  grid-row: 5;
 }
 
 .flow-node {
   display: flex;
-  gap: 12px;
-  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
   min-width: 0;
-  padding: 15px;
+  min-height: 116px;
+  padding: 12px;
   border: 1px solid #42535d;
   background: #22313a;
 }
@@ -783,12 +808,16 @@ tbody td:nth-child(3) {
 .flow-node small {
   display: block;
   min-width: 0;
+  max-width: 100%;
 }
 
 .flow-node strong {
   color: #fff;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   line-height: 1.3;
+  hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .flow-node small {
@@ -822,12 +851,25 @@ tbody td:nth-child(3) {
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
-  white-space: nowrap;
+  text-wrap: balance;
 }
 
-.architecture-row-power {
-  padding-top: 16px;
-  border-top: 1px solid #42535d;
+.flow-bridge-vertical {
+  min-height: 48px;
+  padding: 2px 0;
+}
+
+.flow-bridge-vertical svg {
+  color: #75d5d0;
+}
+
+.architecture-battery,
+.architecture-bluefruit {
+  margin-top: 6px;
+}
+
+.architecture-regulated-power .flow-arrow {
+  transform: rotate(90deg);
 }
 
 .flow-node-power {
@@ -1413,23 +1455,33 @@ footer a {
     border-right: 0;
   }
 
-  .architecture-row {
+  .architecture-map {
     grid-template-columns: 1fr;
     gap: 8px;
   }
 
-  .architecture-row-wireless {
-    padding-top: 14px;
+  .architecture-map > * {
+    grid-column: 1;
+    grid-row: auto;
   }
 
-  .architecture-row .flow-bridge {
+  .architecture-map .flow-bridge {
     grid-template-columns: auto auto;
     justify-content: center;
     gap: 8px;
   }
 
-  .architecture-row .flow-bridge .flow-arrow {
+  .architecture-map .flow-bridge .flow-arrow {
     transform: rotate(90deg);
+  }
+
+  .architecture-map .architecture-regulated-power .flow-arrow {
+    transform: none;
+  }
+
+  .architecture-battery,
+  .architecture-bluefruit {
+    margin-top: 8px;
   }
 
   .haptic-video-grid {
