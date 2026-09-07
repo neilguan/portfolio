@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import {
+  ArrowDown,
   ArrowUpRight,
   ArrowRight,
   BatteryCharging,
@@ -749,13 +750,11 @@ export default function Home() {
             </div>
 
             <figure className="haptic-diagram">
-              <figcaption>
-                Laptop control, MIDI, and hardware interfaces
-              </figcaption>
+              <figcaption>Signal and power architecture</figcaption>
 
               <div
                 className="haptic-signal-flow"
-                aria-label="The keyboard sends MIDI key events to a laptop running the Python controller and display; the laptop drives a separate LED strip and connects over Bluetooth to an ATmega328P controller on the haptic hands; a general lithium-ion battery powers only the ATmega328P, while the power PCB may be a step-down converter associated with the Bluetooth controller"
+                aria-label="The keyboard sends MIDI key events to one laptop running the Python controller and display; the laptop drives a separate LED strip and sends haptic cues through an Adafruit Bluefruit LE UART Friend over Bluetooth to an ATmega328P controller on the hands; the general lithium-ion battery powers only the ATmega328P, and the power PCB is a step-down converter"
               >
                 <div className="architecture-row">
                   <div className="flow-node">
@@ -796,23 +795,57 @@ export default function Home() {
                     </span>
                   </div>
                 </div>
-                <div className="architecture-row architecture-row-wireless">
-                  <div className="flow-node flow-node-core">
-                    <Laptop aria-hidden="true" size={24} />
-                    <span>
-                      <strong>Laptop controller</strong>
-                      <small>Bluetooth host</small>
-                    </span>
+                <div className="architecture-branch">
+                  <div className="architecture-branch-arrow">
+                    <ArrowDown aria-hidden="true" size={24} />
+                    <small>Haptic cues</small>
                   </div>
-                  <div className="flow-bridge">
-                    <Bluetooth aria-hidden="true" size={22} />
-                    <small>Bluetooth</small>
+                  <div className="architecture-row architecture-row-wireless">
+                    <div className="flow-node">
+                      <Bluetooth aria-hidden="true" size={24} />
+                      <span>
+                        <strong>Adafruit Bluefruit LE UART Friend</strong>
+                        <small>BLE radio module</small>
+                      </span>
+                    </div>
+                    <div className="flow-bridge">
+                      <ArrowRight
+                        className="flow-arrow"
+                        aria-hidden="true"
+                        size={24}
+                      />
+                      <small>Bluetooth</small>
+                    </div>
+                    <div className="flow-node flow-node-core">
+                      <Cpu aria-hidden="true" size={24} />
+                      <span>
+                        <strong>ATmega328P controller</strong>
+                        <small>On the haptic hands</small>
+                      </span>
+                    </div>
+                    <div className="flow-bridge">
+                      <ArrowRight
+                        className="flow-arrow"
+                        aria-hidden="true"
+                        size={24}
+                      />
+                      <small>Haptic drive</small>
+                    </div>
+                    <div className="flow-node">
+                      <Vibrate aria-hidden="true" size={24} />
+                      <span>
+                        <strong>Haptic actuators</strong>
+                        <small>Five per glove</small>
+                      </span>
+                    </div>
                   </div>
-                  <div className="flow-node flow-node-core">
-                    <Cpu aria-hidden="true" size={24} />
+                </div>
+                <div className="architecture-row architecture-row-power">
+                  <div className="flow-node flow-node-power">
+                    <BatteryCharging aria-hidden="true" size={24} />
                     <span>
-                      <strong>ATmega328P controller</strong>
-                      <small>On the Bluetooth haptic hands</small>
+                      <strong>General lithium-ion battery</strong>
+                      <small>Controller power input</small>
                     </span>
                   </div>
                   <div className="flow-bridge">
@@ -821,32 +854,28 @@ export default function Home() {
                       aria-hidden="true"
                       size={24}
                     />
-                    <small>Haptic drive</small>
+                    <small>Input power</small>
                   </div>
-                  <div className="flow-node">
-                    <Vibrate aria-hidden="true" size={24} />
-                    <span>
-                      <strong>Haptic actuators</strong>
-                      <small>Five per glove</small>
-                    </span>
-                  </div>
-                </div>
-                <div className="architecture-support">
                   <div className="flow-node flow-node-power">
-                    <BatteryCharging aria-hidden="true" size={24} />
-                    <span>
-                      <strong>General lithium-ion battery</strong>
-                      <small>Power to the ATmega328P only</small>
-                    </span>
-                  </div>
-                  <div className="flow-node flow-node-uncertain">
                     <CircuitBoard aria-hidden="true" size={24} />
                     <span>
                       <strong>Power PCB</strong>
-                      <small>
-                        Possibly a step-down converter on the Bluetooth
-                        controller; exact role unconfirmed
-                      </small>
+                      <small>Step-down converter</small>
+                    </span>
+                  </div>
+                  <div className="flow-bridge">
+                    <ArrowRight
+                      className="flow-arrow"
+                      aria-hidden="true"
+                      size={24}
+                    />
+                    <small>Regulated power</small>
+                  </div>
+                  <div className="flow-node flow-node-power">
+                    <Cpu aria-hidden="true" size={24} />
+                    <span>
+                      <strong>ATmega328P only</strong>
+                      <small>Only powered load</small>
                     </span>
                   </div>
                 </div>

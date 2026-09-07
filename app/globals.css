@@ -732,8 +732,35 @@ tbody td:nth-child(3) {
 }
 
 .architecture-row-wireless {
+  grid-template-columns: minmax(0, 1.25fr) auto minmax(0, 1fr) auto minmax(
+      0,
+      0.9fr
+    );
   padding-top: 16px;
   border-top: 1px solid #42535d;
+}
+
+.architecture-branch {
+  display: grid;
+  gap: 10px;
+}
+
+.architecture-branch-arrow {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  color: #75d5d0;
+}
+
+.architecture-branch-arrow small {
+  color: #aebbc0;
+  font-family: var(--font-geist-mono), Consolas, monospace;
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .flow-node {
@@ -798,21 +825,9 @@ tbody td:nth-child(3) {
   white-space: nowrap;
 }
 
-.architecture-support {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
+.architecture-row-power {
   padding-top: 16px;
   border-top: 1px solid #42535d;
-}
-
-.flow-node-uncertain {
-  border-color: #8e9d6c;
-  border-style: dashed;
-}
-
-.flow-node-uncertain svg {
-  color: #c7d895;
 }
 
 .flow-node-power {
@@ -821,13 +836,6 @@ tbody td:nth-child(3) {
 
 .flow-node-power svg {
   color: #c7d895;
-}
-
-.flow-output {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 10px;
-  align-items: center;
 }
 
 .haptic-video-grid {
@@ -1422,10 +1430,6 @@ footer a {
 
   .architecture-row .flow-bridge .flow-arrow {
     transform: rotate(90deg);
-  }
-
-  .architecture-support {
-    grid-template-columns: 1fr;
   }
 
   .haptic-video-grid {
