@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Fresh Luna authoring and review session</title>
+  <desc id="desc">A fresh authoring session whose first result is preserved before a separate visual review.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">RIG ROUTE / 06</text>
+    <rect x="42" y="108" width="190" height="88" fill="#24353a" stroke="#86b9aa"/><text x="64" y="144" font-size="16">fresh Luna max</text><text x="64" y="172" font-size="13" fill="#c4d3cf">one creature / one pass</text>
+    <path d="M232 152h52" stroke="#86b9aa" stroke-width="2"/><path d="m270 142 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="284" y="108" width="174" height="88" fill="#24353a" stroke="#86b9aa"/><text x="306" y="144" font-size="16">preserve first</text><text x="306" y="172" font-size="13" fill="#c4d3cf">no coaching</text>
+    <path d="M458 152h52" stroke="#86b9aa" stroke-width="2"/><path d="m496 142 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="510" y="108" width="168" height="88" fill="#24353a" stroke="#86b9aa"/><text x="532" y="144" font-size="16">separate review</text><text x="532" y="172" font-size="13" fill="#c4d3cf">change harness later</text>
+    <text x="42" y="260" font-size="15" fill="#c4d3cf">Evidence stays comparable</text><text x="42" y="290" font-size="17">when the experiment is not coached.</text>
+  </g>
+</svg>

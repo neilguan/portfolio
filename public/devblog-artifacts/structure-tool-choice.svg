@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">MineBench and Blockbench tool choice</title>
+  <desc id="desc">A tool choice comparison that favors MineBench because the desired route is open and inspectable.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">STRUCTURE DECISION / 03</text>
+    <rect x="42" y="104" width="270" height="132" fill="#3a2b2a" stroke="#c9785f"/><text x="68" y="144" font-size="20" fill="#f0b09b">Blockbench</text><text x="68" y="178" font-size="13" fill="#e3c5bd">closed for this workflow</text><text x="68" y="204" font-size="13" fill="#e3c5bd">harder to reproduce + inspect</text>
+    <rect x="408" y="104" width="270" height="132" fill="#24353a" stroke="#86b9aa"/><text x="434" y="144" font-size="20" fill="#86b9aa">MineBench</text><text x="434" y="178" font-size="13" fill="#c4d3cf">open foundation</text><text x="434" y="204" font-size="13" fill="#c4d3cf">full route can be carried forward</text>
+    <path d="M312 170h96" stroke="#86b9aa" stroke-width="2"/><path d="m394 160 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <text x="42" y="286" font-size="17">Choose the system you can inspect end to end.</text>
+  </g>
+</svg>

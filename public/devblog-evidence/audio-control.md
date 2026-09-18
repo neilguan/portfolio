@@ -1,0 +1,1 @@
+{"analysis": "Candidate A features footsteps with a clear, crisp high-frequency sound. Candidate B presents similar footsteps but with slightly deeper tone and marginally more pronounced bass. Candidate B also seems fractionally louder overall. The differences are subtle but audible. Confidence: moderate."}

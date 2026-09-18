@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Code-generated pixel sprite study</title>
+  <desc id="desc">A deterministic grid with a small code-like sprite and labels showing why exact pixels were not enough.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">PIXEL TEST / 01</text>
+    <text x="42" y="96" font-size="20">procedural grid ≠ authored silhouette</text>
+    <g transform="translate(62 126)" shape-rendering="crispEdges"><rect width="190" height="164" fill="#24353a" stroke="#86b9aa"/>
+      <g fill="#9abf83"><rect x="60" y="26" width="70" height="24"/><rect x="38" y="50" width="114" height="70"/><rect x="62" y="120" width="22" height="22"/><rect x="108" y="120" width="22" height="22"/></g>
+      <g fill="#c9785f"><rect x="60" y="72" width="16" height="16"/><rect x="114" y="72" width="16" height="16"/></g>
+    </g>
+    <text x="330" y="150" font-size="15" fill="#c4d3cf">repeatable coordinates</text><text x="330" y="180" font-size="15" fill="#c4d3cf">exact export size</text><text x="330" y="210" font-size="15" fill="#f0b09b">no visual feedback loop</text>
+    <text x="330" y="270" font-size="17">keep the grid;</text><text x="330" y="300" font-size="17">change the authoring surface.</text>
+  </g>
+</svg>

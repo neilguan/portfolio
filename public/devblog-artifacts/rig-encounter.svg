@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Encounter-driven rigging test</title>
+  <desc id="desc">A motion test loop from joint transform to player-readable encounter beats.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">RIG TEST / 02</text>
+    <text x="42" y="96" font-size="20">joint correctness → readable encounter</text>
+    <g fill="#24353a" stroke="#86b9aa"><rect x="42" y="130" width="118" height="68"/><rect x="188" y="130" width="118" height="68"/><rect x="334" y="130" width="118" height="68"/></g>
+    <text x="64" y="170" font-size="14">anticipate</text><text x="214" y="170" font-size="14">contact</text><text x="370" y="170" font-size="14">recover</text>
+    <path d="M160 164h28M306 164h28" stroke="#86b9aa" stroke-width="2"/><path d="m176 154 14 10-14 10M322 154l14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="480" y="130" width="198" height="68" fill="#3a2b2a" stroke="#c9785f"/><text x="502" y="158" font-size="14" fill="#f0b09b">“does it move?”</text><text x="502" y="180" font-size="13" fill="#e3c5bd">is not the whole test</text>
+    <text x="42" y="260" font-size="15" fill="#c4d3cf">Review the silhouette and timing</text><text x="42" y="290" font-size="17">as the player would read them.</text>
+  </g>
+</svg>

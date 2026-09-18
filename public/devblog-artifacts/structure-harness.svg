@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Custom structure harness experiment</title>
+  <desc id="desc">A custom structure harness that produces geometry but misses representative views and reference fidelity.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">STRUCTURE TEST / 01</text>
+    <rect x="42" y="100" width="184" height="92" fill="#24353a" stroke="#86b9aa"/><text x="64" y="138" font-size="16">custom harness</text><text x="64" y="166" font-size="13" fill="#c4d3cf">prompt → geometry</text>
+    <path d="M226 146h66" stroke="#86b9aa" stroke-width="2"/><path d="m278 136 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="292" y="100" width="176" height="92" fill="#24353a" stroke="#86b9aa"/><text x="314" y="138" font-size="16">block output</text><text x="314" y="166" font-size="13" fill="#c4d3cf">valid structure</text>
+    <path d="M468 146h66" stroke="#c9785f" stroke-width="2"/><path d="m520 136 14 10-14 10" fill="none" stroke="#c9785f" stroke-width="2"/>
+    <rect x="534" y="100" width="144" height="92" fill="#3a2b2a" stroke="#c9785f"/><text x="553" y="138" font-size="16" fill="#f0b09b">generic</text><text x="553" y="166" font-size="13" fill="#e3c5bd">wrong views</text>
+    <text x="42" y="256" font-size="15" fill="#c4d3cf">A harness is only a useful test</text><text x="42" y="286" font-size="17">when it represents the final judgment.</text>
+  </g>
+</svg>

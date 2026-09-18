@@ -1,0 +1,510 @@
+[
+  {
+    "file": "sprite-catalog.png",
+    "source": "mcgpu-v3/out/original-item-catalog/catalog-review.png",
+    "sourceSha256": "61c9cf100943a513f5b735d97b0fc235796fb1218825afa4dba6eaf87b29f7cb",
+    "sha256": "58a6788eb3d702301cc639f83959029df092d37e472075ec8847d5414abae9fe",
+    "bytes": 49009
+  },
+  {
+    "file": "iron-sprites.png",
+    "source": "mcgpu-v3/studies/item_studies/iron16-reference.png",
+    "sourceSha256": "3ca8a3da32298ecc39ff7c3ba008aeae8848e472f87068792fea8009d71da816",
+    "sha256": "48afd0ff195ca12ff96b85823b958373e9e2606629cb3ec524b8acbe91a299aa",
+    "bytes": 4962
+  },
+  {
+    "file": "astra-fox.png",
+    "source": "out/aseprite-benchmark/astra-low/ember-fox-preview-10x.png",
+    "sourceSha256": "721968c189952b56a8e62bd8f8f729a191151c25787b96f0ab13fe77fb7f5b2e",
+    "sha256": "faa55f3fc0c255249cb14a650ac47c050d57d3ef792a72b78136b311202623e7",
+    "bytes": 4337
+  },
+  {
+    "file": "luna-fox.png",
+    "source": "out/aseprite-benchmark/luna-xhigh/ember_fox_mage_preview_10x.png",
+    "sourceSha256": "02acbc980c7eed859534264676db3937e8c93f1b40aec7757c9e1343939c186c",
+    "sha256": "634e742517ec404de79eb9ccaf975e7fc4387eb36ec928c9512481d760b94a28",
+    "bytes": 4214
+  },
+  {
+    "file": "fox-initial.png",
+    "source": "out/aseprite-benchmark/astra-low/review-initial.png",
+    "sourceSha256": "0cd8fcc9ab7f5faae402ea6ed48e14a758e0f441496162af7cff714ade87448e",
+    "sha256": "017d90a627f443fa2e9bc746632b646c735a5d424b7045193b965f879f011046",
+    "bytes": 4770
+  },
+  {
+    "file": "fox-final.png",
+    "source": "out/aseprite-benchmark/astra-low/review-final.png",
+    "sourceSha256": "6e103daf64c7fbb9d6d778b9a8e582b034874b7b4e5fefdcc284c0e40e9add36",
+    "sha256": "56cd24b47c1ed2b0942a43d4dd92a1c7ad0f0621b3d201f5b56316d7e7e7b5df",
+    "bytes": 4735
+  },
+  {
+    "file": "tortoise-procedural.jpg",
+    "source": "mcgpu-v3/out/luna-procedural-concept-test/versions/v2/evidence/hero.png",
+    "sourceSha256": "9372011350c79b9fce28ad855c89bc2847c15800215d10eb0657f4572a964507",
+    "sha256": "5d2dda89993686fe1aa40d46026261fe8ce20f5fb8ac2c7631e68fda502b28e0",
+    "bytes": 59161
+  },
+  {
+    "file": "tortoise-diffusion.jpg",
+    "source": "mcgpu-v3/out/luna-diffusion-texture-test/versions/v2/hero.jpg",
+    "sourceSha256": "dfaa4dee7da17ebeb7ecada5e97b5e7586e26ae51789050d45dff93ee408ecdc",
+    "sha256": "c336053d2a346ceaaa0a0365ea1765765ee421aeaffc2701ec0e710a8cb957e5",
+    "bytes": 47732
+  },
+  {
+    "file": "tortoise-source.png",
+    "source": "mcgpu-v3/out/luna-diffusion-texture-test/generated/request1-shell.png",
+    "sourceSha256": "f64496d463e1fa4a6668bbbfe629efeb7f138ec83ad52e0adcc293f07945bf6d",
+    "sha256": "d2adb7d76bada6a346f0b7effc88dba837aee6cd011b147df3f72ffc7ddea32a",
+    "bytes": 858404
+  },
+  {
+    "file": "airship-reference.jpg",
+    "source": "mcgpu-v3/out/chat-previews/upstream-airship/final/reference-hero.jpg",
+    "sourceSha256": "ddbaab1a4eba3369e7c61eac84751868c49d2e4e3e7ca1be6202c511fb792b59",
+    "sha256": "bf2c8d4a9e5461e095c1619187cd63b73908b6a61cc42ad59038303467c570a6",
+    "bytes": 101317
+  },
+  {
+    "file": "airship-v8.jpg",
+    "source": "mcgpu-v3/out/chat-previews/upstream-airship/final/candidate-hero.jpg",
+    "sourceSha256": "56ec0e1e2f6c65e0a216892480df5ea6a9623bb2ad5dcab88550178dcabfca2b",
+    "sha256": "547c67febc435617db29875e7dc88e54d2c14b50fc0393dac074cf159c78eac9",
+    "bytes": 95135
+  },
+  {
+    "file": "airship-v9.jpg",
+    "source": "mcgpu-v3/out/upstream-airship-review/v9/candidate-hero.png",
+    "sourceSha256": "1472cf7248010ffed336b164da2f89ed7c72e83bb911ec485bb68e0d02bfe789",
+    "sha256": "31c9e722d3ab95faef1c52a352fb20e1b4774c51f93995ea2c07cf7af528a8ee",
+    "bytes": 102001
+  },
+  {
+    "file": "airship-detail.jpg",
+    "source": "mcgpu-v3/out/upstream-airship-review/v9/candidate-detail.png",
+    "sourceSha256": "fee8ac7cb4419ab1bed762d4f8eb62a449eb2cb594d606fe9b7ecab976d44d91",
+    "sha256": "86d4366fac94d2ae31a82c24335ac1560bf4d7b7167469de626576dced381160",
+    "bytes": 176038
+  },
+  {
+    "file": "airship-interior.jpg",
+    "source": "mcgpu-v3/out/upstream-airship-review/v9/candidate-interior.png",
+    "sourceSha256": "f534012d66fb693286e1845d9a03e4b62a89bf53199d15eca6ad87290b5675ae",
+    "sha256": "d76c033e1026d28ec46f3b17d05613d667911452a8d0b940414b8786f8a918b4",
+    "bytes": 199732
+  },
+  {
+    "file": "hunyuan.jpg",
+    "source": "mcgpu-v3/out/chat-previews/emberwing-hunyuan-blockbench-source-clear.png",
+    "sourceSha256": "c9199e445550621a1e01dd470747bbd8a7018306e360a9e84bcbf31d7ac530fc",
+    "sha256": "d5202688b80178c23536481082a439fae69d2d4f7f3077a12f2846cfea427493",
+    "bytes": 36216
+  },
+  {
+    "file": "dragon-studio.jpg",
+    "source": "mcgpu-v3/out/chat-previews/checkpoints/emberwing-studio-v1/pass-04/match-concept-bind.jpg",
+    "sourceSha256": "8245efcfd707708f1e26e307c6d816290c95685d45c0985266662c3a604127db",
+    "sha256": "1cfeae34c3322de0cede512e2e641113c9994ca73e4c30c060b2393e8eb2b12f",
+    "bytes": 66452
+  },
+  {
+    "file": "dragon-fit.jpg",
+    "source": "mcgpu-v3/out/chat-previews/emberwing-fit/reference-and-fit.jpg",
+    "sourceSha256": "118e1f234b5213e29272bed696e6adb67b0b2c2600a7bb17d6c0a5effac1064c",
+    "sha256": "f05125ffc4c98726703c99554d9402dc6acb652ef57779f8c32496d7a3a8efae",
+    "bytes": 105689
+  },
+  {
+    "file": "retopo-auto.jpg",
+    "source": "mcgpu-v3/out/chat-previews/blender-retopo-comparison.jpg",
+    "sourceSha256": "2b9b3f04bde3abfa67759d335afcc22e8a92d85cbebd586df06208838cbcca81",
+    "sha256": "cc529f0251acae32842544ce8eae0ab610322e53b6949a90c6b1a9cd71177400",
+    "bytes": 52699
+  },
+  {
+    "file": "retopo-manual.jpg",
+    "source": "mcgpu-v3/out/chat-previews/manual-retopo-final.jpg",
+    "sourceSha256": "716c930a1886fe80bff595335ae1db782a5f30fb17a57b4cce28f7c09076f5e0",
+    "sha256": "83c12416d7297a4c7c70ef059ce0fbfc60fa40edf54f8736306e8f67c1fc04e3",
+    "bytes": 55589
+  },
+  {
+    "file": "cinder-fly.jpg",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/poses/fly.png",
+    "sourceSha256": "0afa2e7a3374cafb129e18334e089e1a4b11b4932b49cd0afe2aef484acc5133",
+    "sha256": "abdc7d65554fe5e2e49634f52445bd9240f333d47d593254a46d5dfba353c02c",
+    "bytes": 15508
+  },
+  {
+    "file": "cloud-world.jpg",
+    "source": "mcgpu-v3/out/chat-previews/cloud-shepherd-native/world.jpg",
+    "sourceSha256": "f37dd8a7006abd2f4264fbe95903c8d5c6c190325e6c594e8c74636de5d8a810",
+    "sha256": "738f1aa0defd8ef4e43886db85885287b4b28648f52de9bb1e2b7d8fb6cc906d",
+    "bytes": 48259
+  },
+  {
+    "file": "astra-fox.gif",
+    "source": "out/aseprite-benchmark/astra-low/ember-fox-preview-6x.gif",
+    "sourceSha256": "73a33a7ab1a6ae7cb25863f04198c45a8dd0c5d535303df1b3d33b86f7a28884",
+    "sha256": "73a33a7ab1a6ae7cb25863f04198c45a8dd0c5d535303df1b3d33b86f7a28884",
+    "bytes": 32366
+  },
+  {
+    "file": "cinder-fly.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/fly.mp4",
+    "sourceSha256": "19569e2b08471888ac42d83e2b9d8837478c55e7ddafdab60bdb7102f98844c2",
+    "sha256": "19569e2b08471888ac42d83e2b9d8837478c55e7ddafdab60bdb7102f98844c2",
+    "bytes": 70669
+  },
+  {
+    "file": "cinder-land.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/land.mp4",
+    "sourceSha256": "422689388f5605cc3afb3291549c1ec61810f1ddbdfd3a0d055710f25e201c7f",
+    "sha256": "422689388f5605cc3afb3291549c1ec61810f1ddbdfd3a0d055710f25e201c7f",
+    "bytes": 72801
+  },
+  {
+    "file": "generated-birds.wav",
+    "source": "mcgpu-v3/assets/audio/ambient/forest_birds.wav",
+    "sourceSha256": "63508ccc7e6aaf1102d5a7c38e02beaf825cb6dd01aec847d85c9aae0f34fcf5",
+    "sha256": "63508ccc7e6aaf1102d5a7c38e02beaf825cb6dd01aec847d85c9aae0f34fcf5",
+    "bytes": 441044
+  },
+  {
+    "file": "sourced-birds.wav",
+    "source": "mcgpu-v3/assets/audio/freesound/habitat-v2/bird_call_1.wav",
+    "sourceSha256": "a61148a804cef82c98bf3736530b24b8e2759aafe9e627505e99b47a47e2bdc4",
+    "sha256": "a61148a804cef82c98bf3736530b24b8e2759aafe9e627505e99b47a47e2bdc4",
+    "bytes": 70604
+  },
+  {
+    "file": "audio-revisions.md",
+    "source": "mcgpu-v3/docs/audio-cohesion.md",
+    "sourceSha256": "ec624343b9effb7b8a5c53061eaf591ef0f6cb26df91881d9990bdffde7c2b53",
+    "sha256": "ec624343b9effb7b8a5c53061eaf591ef0f6cb26df91881d9990bdffde7c2b53",
+    "bytes": 14065
+  },
+  {
+    "file": "audio-prompts.json",
+    "source": "mcgpu-v3/assets/audio/generated.json",
+    "sourceSha256": "3f1cce02176b59267bc1f562549a1d8b0963a35a60c1c75aadb0455f0556fb74",
+    "sha256": "3f1cce02176b59267bc1f562549a1d8b0963a35a60c1c75aadb0455f0556fb74",
+    "bytes": 161250
+  },
+  {
+    "file": "audio-credits.md",
+    "source": "mcgpu-v3/assets/audio/freesound/CREDITS.md",
+    "sourceSha256": "4f8305ed6e1426010691e74fdddac6a8bcdf1cbd5f129d61ec7770532cffeaa2",
+    "sha256": "4f8305ed6e1426010691e74fdddac6a8bcdf1cbd5f129d61ec7770532cffeaa2",
+    "bytes": 22906
+  },
+  {
+    "file": "audio-manifest.json",
+    "source": "mcgpu-v3/assets/audio/freesound/manifest.json",
+    "sourceSha256": "c697607b55e401a0b3c23089bd118a2e5a7652c65333ce0c85d0b801c641a38b",
+    "sha256": "c697607b55e401a0b3c23089bd118a2e5a7652c65333ce0c85d0b801c641a38b",
+    "bytes": 329594
+  },
+  {
+    "file": "audio-control.md",
+    "source": "mcgpu-v3/out/audio-critique/controls/gpt-audio-1.5/identical-padded.md",
+    "sourceSha256": "a4eb7e7ea9cf8a4c8bf561b4ffc97f4f68b8d077443cf8020e78fa4cbd7c22e3",
+    "sha256": "a4eb7e7ea9cf8a4c8bf561b4ffc97f4f68b8d077443cf8020e78fa4cbd7c22e3",
+    "bytes": 308
+  },
+  {
+    "file": "sprite-audit.md",
+    "source": "mcgpu-v3/docs/pixel-art-workflow.md",
+    "sourceSha256": "5feb00d78c0a7ce4b491b0ec352554a498198efb2985f2d769c205403b061e04",
+    "sha256": "5feb00d78c0a7ce4b491b0ec352554a498198efb2985f2d769c205403b061e04",
+    "bytes": 8295
+  },
+  {
+    "file": "aseprite-trial.md",
+    "source": "out/aseprite-benchmark/astra-low/README.md",
+    "sourceSha256": "53e6c148038a22d927b69b0ff7b757010aaf872c600f8a2aea4d4d351eb8a66b",
+    "sha256": "53e6c148038a22d927b69b0ff7b757010aaf872c600f8a2aea4d4d351eb8a66b",
+    "bytes": 1709
+  },
+  {
+    "file": "diffusion-trial.md",
+    "source": "mcgpu-v3/out/luna-diffusion-texture-test/README.md",
+    "sourceSha256": "334ce9d4487c4548656e5c148b35dc32bb132acf5e511c10903475d9fbe029c6",
+    "sha256": "334ce9d4487c4548656e5c148b35dc32bb132acf5e511c10903475d9fbe029c6",
+    "bytes": 844
+  },
+  {
+    "file": "procedural-review.md",
+    "source": "mcgpu-v3/out/luna-procedural-concept-test/review-v2.md",
+    "sourceSha256": "dcc809c67ea8c50a5bfabb6aba54cde1b3c849cec5f38cb1d8f621465e0bbd66",
+    "sha256": "dcc809c67ea8c50a5bfabb6aba54cde1b3c849cec5f38cb1d8f621465e0bbd66",
+    "bytes": 3265
+  },
+  {
+    "file": "airship-audit.md",
+    "source": "mcgpu-v3/docs/minebench-harness-audit.md",
+    "sourceSha256": "2f77153b64669587cb68b5cb2b8f0885acffe95ffee63753cf673267db94c6cb",
+    "sha256": "2f77153b64669587cb68b5cb2b8f0885acffe95ffee63753cf673267db94c6cb",
+    "bytes": 4098
+  },
+  {
+    "file": "airship-review.md",
+    "source": "mcgpu-v3/studies/structure_studies/airship-luna/review.md",
+    "sourceSha256": "2f8a4b69ac29b36f22a1694a8a3f3979a438931d26f71bcf8904cba7c1ca3a21",
+    "sha256": "2f8a4b69ac29b36f22a1694a8a3f3979a438931d26f71bcf8904cba7c1ca3a21",
+    "bytes": 3346
+  },
+  {
+    "file": "structure-workflow.md",
+    "source": "mcgpu-v3/docs/structure-authoring.md",
+    "sourceSha256": "2cb85e09d1a3017e05d98dcdf9467cac72632d88d3f081b1381b02aef230b97d",
+    "sha256": "2cb85e09d1a3017e05d98dcdf9467cac72632d88d3f081b1381b02aef230b97d",
+    "bytes": 4878
+  },
+  {
+    "file": "structure-runtime.md",
+    "source": "mcgpu-v3/docs/structure-generators.md",
+    "sourceSha256": "33bcd5c9b8c2939dc4a514234158cc0df135f757b20725199b2835b2405e9c61",
+    "sha256": "33bcd5c9b8c2939dc4a514234158cc0df135f757b20725199b2835b2405e9c61",
+    "bytes": 11273
+  },
+  {
+    "file": "hunyuan-setup.md",
+    "source": "mcgpu-v3/docs/hunyuan3d-local.md",
+    "sourceSha256": "ebbb944c6e18401a4f0d3b28491f437fe3cf92861824b08273222f48aa17e5c7",
+    "sha256": "ebbb944c6e18401a4f0d3b28491f437fe3cf92861824b08273222f48aa17e5c7",
+    "bytes": 2738
+  },
+  {
+    "file": "cinder-findings.md",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/FINDINGS.md",
+    "sourceSha256": "418de05c3dfa887dcaba5521df02e66b79c3d746c2132d6e23fd9058129c0e58",
+    "sha256": "418de05c3dfa887dcaba5521df02e66b79c3d746c2132d6e23fd9058129c0e58",
+    "bytes": 2469
+  },
+  {
+    "file": "cinder-manifest.json",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/manifest.json",
+    "sourceSha256": "01f4773411812cd53be95b297b3f81d4b1872de53e8a5faff23fbd1a4704a0cc",
+    "sha256": "01f4773411812cd53be95b297b3f81d4b1872de53e8a5faff23fbd1a4704a0cc",
+    "bytes": 7314
+  },
+  {
+    "file": "creature-policy.md",
+    "source": "mcgpu-v3/AGENTS.md",
+    "sourceSha256": "0e16a34e537c59b11f7d9a5123adabef5f087bbdb9c47890eac82af9a75bbbed",
+    "sha256": "0e16a34e537c59b11f7d9a5123adabef5f087bbdb9c47890eac82af9a75bbbed",
+    "bytes": 39968
+  },
+  {
+    "file": "engine-architecture.md",
+    "source": "mcgpu-v3/ARCHITECTURE.md",
+    "sourceSha256": "6f87496887324cb35451cd39677ae09e540dc9f8b2818e49d7a849f8cd2d0aed",
+    "sha256": "6f87496887324cb35451cd39677ae09e540dc9f8b2818e49d7a849f8cd2d0aed",
+    "bytes": 88763
+  },
+  {
+    "file": "world-persistence.md",
+    "source": "mcgpu-v3/docs/world-persistence.md",
+    "sourceSha256": "1ebf4ccb2ab3b496a68c7d7aa971d3d50ab2a1c2a32fec64605d2da7d1d04609",
+    "sha256": "1ebf4ccb2ab3b496a68c7d7aa971d3d50ab2a1c2a32fec64605d2da7d1d04609",
+    "bytes": 9851
+  },
+  {
+    "file": "multiplayer.md",
+    "source": "mcgpu-v3/docs/multiplayer.md",
+    "sourceSha256": "33cc344ef8ab1188a36f8dafeab1824d6bcf26409b3854826c80acfc33eba73a",
+    "sha256": "33cc344ef8ab1188a36f8dafeab1824d6bcf26409b3854826c80acfc33eba73a",
+    "bytes": 21533
+  },
+  {
+    "file": "material-source.png",
+    "source": "C:\\Users\\neilg\\OneDrive\\Documents\\portfolio\\public\\devblog-artifacts\\pixel-source.png",
+    "note": "Preserved prior devblog asset; source and converted material sheets are not evidence of the Aseprite benchmark.",
+    "sha256": "5a454c18de7e882bcbc274a6f663fc2db7fc0742a8b7b99473552241e0f35d39",
+    "bytes": 1615783
+  },
+  {
+    "file": "material-sheet.png",
+    "source": "C:\\Users\\neilg\\OneDrive\\Documents\\portfolio\\public\\devblog-artifacts\\pixel-sheet.png",
+    "note": "Preserved prior devblog asset; source and converted material sheets are not evidence of the Aseprite benchmark.",
+    "sha256": "b36938f5c61e659cdc4dff4dd88303c8ac341dc27ad42efe7e825f515b51868e",
+    "bytes": 84241
+  },
+  {
+    "file": "material-creature.jpg",
+    "source": "C:\\Users\\neilg\\OneDrive\\Documents\\portfolio\\public\\devblog-artifacts\\pixel-creature.jpg",
+    "note": "Preserved prior devblog asset; source and converted material sheets are not evidence of the Aseprite benchmark.",
+    "sha256": "aea29a094737556aba6ec9241128da15a74ea54a2c9227c9016df58e26a1e7d2",
+    "bytes": 46621
+  },
+  {
+    "file": "turtle-original.jpg",
+    "source": "mcgpu-v3/studies/creature_recipes/lava-tortoise/references/original.png",
+    "sha256": "3d217420906640aec385fb699f5f383f233f737176f1720ee76ae3d3abd1a1f1",
+    "bytes": 43477
+  },
+  {
+    "file": "turtle-early-v2.jpg",
+    "source": "mcgpu-v3/studies/creature_recipes/lava-tortoise/review-v2/hero.png",
+    "sha256": "e89c5479e16c066e47eda8cec213c5a300a2fc3e7dfbae0df0182ee040209fe2",
+    "bytes": 52265
+  },
+  {
+    "file": "turtle-complex-v4.jpg",
+    "source": "mcgpu-v3/studies/creature_recipes/lava-tortoise/review-v4/hero.png",
+    "sha256": "39b3e12a3108e0951f0453109b4798cbfaa29a6a005e3ac0e7d19135e795af24",
+    "bytes": 50099
+  },
+  {
+    "file": "airship-concept.jpg",
+    "source": "mcgpu-v3/studies/concepts/steampunk-airship/concept.png",
+    "sha256": "253a9d6170f687442a992fa4fd83fbafa72bf2499647dbaa9c6c2bf9f604d712",
+    "bytes": 254181
+  },
+  {
+    "file": "golem-study.jpg",
+    "source": "mcgpu-v3/out/chat-previews/golem-concept-match-v1/before-after.jpg",
+    "sha256": "7191f67a9b7362aed2d660e683ce0f2b25de4f5fe6904a50765c2b82681557bc",
+    "bytes": 38802
+  },
+  {
+    "file": "owl-concept.jpg",
+    "source": "mcgpu-v3/studies/creature_trials/roster-13-prism-owl/concept.png",
+    "sha256": "e36ef5fcc4eee279ac688eee837cb12d81484fcdf0d3fe05e4f7b9dc36601d08",
+    "bytes": 41777
+  },
+  {
+    "file": "manta-concept.jpg",
+    "source": "mcgpu-v3/studies/creature_trials/roster-04-cloud-manta/concept.png",
+    "sha256": "c13cb22ed9edd2c9f08e34b5de87674282a0afbdb28a5c79e8a5265629de9e4c",
+    "bytes": 26707
+  },
+  {
+    "file": "turtle-concept.jpg",
+    "source": "mcgpu-v3/assets/creature-library/creatures/isolated-astra-light-ember-20260912-tortoise/v3/concept-c1.png",
+    "sha256": "a5cad334c7cd4970980939b3e9012a081f24753ca0c42a2331269107d5dd49ff",
+    "bytes": 90961
+  },
+  {
+    "file": "turtle-box.jpg",
+    "source": "mcgpu-v3/assets/creature-library/creatures/isolated-astra-light-ember-20260912-tortoise/v3/selected-preview.jpg",
+    "sha256": "f190cd64d44eb9caa1a0dc8de2d307a968aca19c396a88c9a97f8e2ed04d674b",
+    "bytes": 51581
+  },
+  {
+    "file": "gpt-roster.jpg",
+    "source": "assets/creature-library/concept-sheets/peaceful-mob-concepts-25-simplified.png",
+    "sha256": "454f58138ab5c51e7a90b544076a20b8b0bfa973e35a142a8cf11e132da6542f",
+    "bytes": 280445
+  },
+  {
+    "file": "gustling.jpg",
+    "source": "mcgpu-v3/studies/creature-library/experiments/gustling/v2/selected-preview.jpg",
+    "sha256": "6925f22b46fe82ec9bddb24281e2ef80eca6833e0c7473411730da81bc983d6c",
+    "bytes": 57339
+  },
+  {
+    "file": "grass-uv.png",
+    "source": "out/aseprite-grass-uv-test/grass_block_uv_4x.png",
+    "sha256": "b8b2442cb86d01f9ede97a5559df5898747b1fcb648b47bdc59e14496d6c469c",
+    "bytes": 1399
+  },
+  {
+    "file": "blocks-bricks.png",
+    "source": "out/aseprite-mcp-luna-readable/bricks_7x.png",
+    "sha256": "3a4f5e9f414b2b801f9a2c54474f5301144d3deaaf9dcd9f0ac92db9f8cd59dd",
+    "bytes": 603
+  },
+  {
+    "file": "blocks-furnace.png",
+    "source": "out/aseprite-mcp-luna-readable/furnace_7x.png",
+    "sha256": "0c85f163bd56e93ecc6934fd97ea4fa3c2903ad34f7369fbfad93244ece0cab7",
+    "bytes": 550
+  },
+  {
+    "file": "blocks-diamond.png",
+    "source": "out/aseprite-mcp-luna-readable/diamond_ore_7x.png",
+    "sha256": "c4deed8c0902c212a436c92aa1e867312d961bcc6dad104168740e13f261aae1",
+    "bytes": 669
+  },
+  {
+    "file": "gustling.mp4",
+    "source": "mcgpu-v3/studies/creature-library/experiments/gustling/v2/encounter-preview.mp4",
+    "sha256": "97149f8cefcfbb51ba93be12caf904e95b28c4bc2a0335260458e1acc8213d79",
+    "bytes": 2554466
+  },
+  {
+    "file": "turtle-motion.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/lava-tortoise/refined-v4-animated/motion-review.mp4",
+    "sha256": "60021526715743b78cbdde7c2201e4e144ced9ddd22593d4dcc241d7de9c2d06",
+    "bytes": 2745881
+  },
+  {
+    "file": "cinder-walk.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/walk.mp4",
+    "sha256": "d9188ee8c771820da3beb49499f2103bc1afc99b1dea6208cbf3b514de342476",
+    "bytes": 49854
+  },
+  {
+    "file": "cinder-run.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/run.mp4",
+    "sha256": "57ae40f32823ea127ce9b7fda64ccf4cc0ff2e15250f2cbf3f2c4af7a1789771",
+    "bytes": 41116
+  },
+  {
+    "file": "cinder-takeoff.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/takeoff.mp4",
+    "sha256": "daf7e44d3a2a5168ed172e8040a3b0f722b486c0c392b5d080601ba94f6ee164",
+    "bytes": 74124
+  },
+  {
+    "file": "cinder-fire_breath.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/fire_breath.mp4",
+    "sha256": "dee1af3d2aeff004fc9538b26f79fb9b6efd6f4d760cf97e1a2d458677d6736b",
+    "bytes": 42192
+  },
+  {
+    "file": "cinder-tail_whip.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/tail_whip.mp4",
+    "sha256": "af495d91a44a5c4f154e594a2ec3b1bf01182c82c06a3a4abb644b530c586b2f",
+    "bytes": 41012
+  },
+  {
+    "file": "cinder-death.mp4",
+    "source": "mcgpu-v3/studies/creature_recipes/cinder-approved/videos/death.mp4",
+    "sha256": "106b68adb0e8f30a280f7de0e3b9a8440c0f929105b107e796d4c6de9a56eb87",
+    "bytes": 41165
+  },
+  {
+    "file": "luna-fox.gif",
+    "source": "C:\\Users\\neilg\\OneDrive\\Documents\\minecraft\\out\\aseprite-benchmark\\luna-xhigh\\ember_fox_mage.gif",
+    "note": "Existing animated frames enlarged 6x using nearest-neighbour sampling.",
+    "bytes": 31248
+  },
+  {
+    "file": "realtime-audio-trial.md",
+    "source": "mcgpu-v3-realtime-sound-critique/docs/realtime-audio-trial.md",
+    "sourceSha256": "a61fba4eb3126b4491f6118a7cebd2a40604314f58a7aa99522cc17f94662aa5",
+    "sha256": "a61fba4eb3126b4491f6118a7cebd2a40604314f58a7aa99522cc17f94662aa5",
+    "bytes": 4483
+  },
+  {
+    "file": "realtime-results.json",
+    "source": "mcgpu-v3-realtime-sound-critique/out/audio-critique/realtime-trial/summary.json",
+    "sourceSha256": "bce2e49f47570dc729595142b563cc11ee206adbad1404ab036e65861cf0b5ff",
+    "sha256": "bce2e49f47570dc729595142b563cc11ee206adbad1404ab036e65861cf0b5ff",
+    "bytes": 9382
+  },
+  {
+    "file": "realtime-level-control.wav",
+    "source": "mcgpu-v3-realtime-sound-critique/out/audio-critique/realtime-trial/02.wav",
+    "sourceSha256": "7951d8fea372658b15491d1da1c78522fa4c3ebff98084a391b49e0528860a93",
+    "sha256": "7951d8fea372658b15491d1da1c78522fa4c3ebff98084a391b49e0528860a93",
+    "bytes": 408044
+  }
+]

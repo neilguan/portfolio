@@ -1,0 +1,2311 @@
+{
+  "ambient/forest_birds": {
+    "file": "ambient/forest_birds.wav",
+    "prompt": "sparse woodland songbirds with a few natural chirps at varied distances and long quiet gaps, clean environment, no wind, no music",
+    "seed": 211,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "ambient-candidates/forest_birds_211": {
+    "file": "ambient-candidates/forest_birds_211.wav",
+    "prompt": "isolated small woodland songbirds: a few clear natural chirps and short melodic calls at varied distances, long quiet gaps between calls, clean dry recording, no wind, no leaves, no hiss, no music, no humans",
+    "seed": 211,
+    "duration_seconds": 12.0,
+    "loop": true
+  },
+  "ambient-candidates/forest_birds_587": {
+    "file": "ambient-candidates/forest_birds_587.wav",
+    "prompt": "isolated small woodland songbirds: a few clear natural chirps and short melodic calls at varied distances, long quiet gaps between calls, clean dry recording, no wind, no leaves, no hiss, no music, no humans",
+    "seed": 587,
+    "duration_seconds": 12.0,
+    "loop": true
+  },
+  "ambient-candidates/forest_birds_941": {
+    "file": "ambient-candidates/forest_birds_941.wav",
+    "prompt": "isolated small woodland songbirds: a few clear natural chirps and short melodic calls at varied distances, long quiet gaps between calls, clean dry recording, no wind, no leaves, no hiss, no music, no humans",
+    "seed": 941,
+    "duration_seconds": 12.0,
+    "loop": true
+  },
+  "effects/swing": {
+    "file": "effects/swing.wav",
+    "prompt": "short airy handheld tool whoosh, dry close perspective, no voice, no music",
+    "seed": 101,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/step_stone": {
+    "file": "effects/step_stone.wav",
+    "prompt": "single soft boot step on rough stone, compact dry game sound, no voice, no music",
+    "seed": 102,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/step_sand": {
+    "file": "effects/step_sand.wav",
+    "prompt": "single boot crunch in dry sand and fine gravel, compact dry game sound",
+    "seed": 103,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/step_wood": {
+    "file": "effects/step_wood.wav",
+    "prompt": "single boot step on a solid wooden plank, muted knock and creak, compact game sound",
+    "seed": 104,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/step_grass": {
+    "file": "effects/step_grass.wav",
+    "prompt": "single soft boot step through grass and soil, compact game sound, no birds or ambience",
+    "seed": 105,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/swim": {
+    "file": "effects/swim.wav",
+    "prompt": "single gentle arm splash and water slosh, close perspective, compact game sound",
+    "seed": 106,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/jump": {
+    "file": "effects/jump.wav",
+    "prompt": "short cloth and boot lift effort sound, subtle airy rise, no voice, compact game sound",
+    "seed": 107,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/land": {
+    "file": "effects/land.wav",
+    "prompt": "single heavy boot landing on earth with low impact, compact game sound, no voice",
+    "seed": 108,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/mine": {
+    "file": "effects/mine.wav",
+    "prompt": "single pickaxe chip striking rock, crisp stone clack, compact game sound",
+    "seed": 109,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/break": {
+    "file": "effects/break.wav",
+    "prompt": "small voxel stone block cracking and crumbling apart, compact game sound",
+    "seed": 110,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/place": {
+    "file": "effects/place.wav",
+    "prompt": "single solid voxel block placement thunk, compact game sound",
+    "seed": 111,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/ui": {
+    "file": "effects/ui.wav",
+    "prompt": "short warm wooden interface click, clean compact game UI sound",
+    "seed": 112,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/hurt": {
+    "file": "effects/hurt.wav",
+    "prompt": "short blunt player damage impact with cloth and low thud, no voice, compact game sound",
+    "seed": 113,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "effects/death": {
+    "file": "effects/death.wav",
+    "prompt": "low final impact and fading dark rumble, no voice, no music, compact game sound",
+    "seed": 114,
+    "duration_seconds": 1.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "ambient/plains": {
+    "file": "ambient/plains.wav",
+    "prompt": "quiet open meadow ambience, faint breeze through grass and sparse insects, no birds, no music, seamless",
+    "seed": 212,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "ambient/desert": {
+    "file": "ambient/desert.wav",
+    "prompt": "dry desert air with soft sand grains moving in a light breeze, sparse and quiet, no birds, no music, seamless",
+    "seed": 213,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "ambient/mountain": {
+    "file": "ambient/mountain.wav",
+    "prompt": "exposed high mountain wind, broad cold gusts around rock, no birds, no music, seamless",
+    "seed": 214,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "ambient/cave": {
+    "file": "ambient/cave.wav",
+    "prompt": "deep enclosed stone cave ambience, sparse water drips and distant low rock groans, no wind, no birds, no music, seamless",
+    "seed": 215,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "ambient/shore": {
+    "file": "ambient/shore.wav",
+    "prompt": "gentle natural lake shore water lapping against sand and stones, no birds, no music, seamless",
+    "seed": 216,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "ambient/underwater": {
+    "file": "ambient/underwater.wav",
+    "prompt": "submerged underwater ambience, muffled water movement and soft low bubbles, no birds, no music, seamless",
+    "seed": 217,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "ambient/night": {
+    "file": "ambient/night.wav",
+    "prompt": "quiet nighttime field ambience with sparse crickets and distant insects, no birds, no wind, no music, seamless",
+    "seed": 218,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "cohesive/place_stone_01": {
+    "file": "cohesive/place_stone_01.wav",
+    "prompt": "One single compact stone cube placement: immediate low dry tok with a tiny gritty contact crunch, solid modest weight, rounded attack, decay completely within 150 milliseconds followed by silence. Close isolated game foley, no bouncing, no repeated hits, no reverb, no ambience, no voice, no music.",
+    "seed": 1401,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_stone": {
+    "file": "cohesive/step_stone.wav",
+    "prompt": "One isolated boot footstep on rough stone, hard low mineral tok and fine grit. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1500,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_stone": {
+    "file": "cohesive/place_stone.wav",
+    "prompt": "One isolated block set down onto rough stone, hard low mineral tok and fine grit. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1501,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_stone": {
+    "file": "cohesive/break_stone.wav",
+    "prompt": "One isolated block breaking apart made of rough stone, hard low mineral tok and fine grit. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1502,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_dirt": {
+    "file": "cohesive/step_dirt.wav",
+    "prompt": "One isolated boot footstep on packed dry earth, soft low thud and loose soil grains. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1503,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_dirt": {
+    "file": "cohesive/place_dirt.wav",
+    "prompt": "One isolated block set down onto packed dry earth, soft low thud and loose soil grains. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1504,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_dirt": {
+    "file": "cohesive/break_dirt.wav",
+    "prompt": "One isolated block breaking apart made of packed dry earth, soft low thud and loose soil grains. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1505,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_grass": {
+    "file": "cohesive/step_grass.wav",
+    "prompt": "One isolated boot footstep on springy turf, cushioned earthy thup with tiny grass rustle. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1506,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_grass": {
+    "file": "cohesive/place_grass.wav",
+    "prompt": "One isolated block set down onto springy turf, cushioned earthy thup with tiny grass rustle. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1507,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_grass": {
+    "file": "cohesive/break_grass.wav",
+    "prompt": "One isolated block breaking apart made of springy turf, cushioned earthy thup with tiny grass rustle. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1508,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_sand": {
+    "file": "cohesive/step_sand.wav",
+    "prompt": "One isolated boot footstep on loose sand, soft granular shuff and sliding grains. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1509,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_sand": {
+    "file": "cohesive/place_sand.wav",
+    "prompt": "One isolated block set down onto loose sand, soft granular shuff and sliding grains. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1510,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_sand": {
+    "file": "cohesive/break_sand.wav",
+    "prompt": "One isolated block breaking apart made of loose sand, soft granular shuff and sliding grains. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1511,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_wood": {
+    "file": "cohesive/step_wood.wav",
+    "prompt": "One isolated boot footstep on dry timber, hollow warm woody knock and fibers. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1512,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_wood": {
+    "file": "cohesive/place_wood.wav",
+    "prompt": "One isolated block set down onto dry timber, hollow warm woody knock and fibers. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1513,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_wood": {
+    "file": "cohesive/break_wood.wav",
+    "prompt": "One isolated block breaking apart made of dry timber, hollow warm woody knock and fibers. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1514,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_gravel": {
+    "file": "cohesive/step_gravel.wav",
+    "prompt": "One isolated boot footstep on loose gravel, several tiny angular pebble clicks. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1515,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_gravel": {
+    "file": "cohesive/place_gravel.wav",
+    "prompt": "One isolated block set down onto loose gravel, several tiny angular pebble clicks. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1516,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_gravel": {
+    "file": "cohesive/break_gravel.wav",
+    "prompt": "One isolated block breaking apart made of loose gravel, several tiny angular pebble clicks. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1517,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_snow": {
+    "file": "cohesive/step_snow.wav",
+    "prompt": "One isolated boot footstep on fresh compact snow, muted powder crunch. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1518,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_snow": {
+    "file": "cohesive/place_snow.wav",
+    "prompt": "One isolated block set down onto fresh compact snow, muted powder crunch. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1519,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_snow": {
+    "file": "cohesive/break_snow.wav",
+    "prompt": "One isolated block breaking apart made of fresh compact snow, muted powder crunch. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1520,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_glass": {
+    "file": "cohesive/step_glass.wav",
+    "prompt": "One isolated boot footstep on solid glass, delicate high glass tick with short crystalline resonance. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1521,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_glass": {
+    "file": "cohesive/place_glass.wav",
+    "prompt": "One isolated block set down onto solid glass, delicate high glass tick with short crystalline resonance. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1522,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_glass": {
+    "file": "cohesive/break_glass.wav",
+    "prompt": "One isolated block breaking apart made of solid glass, delicate high glass tick with short crystalline resonance. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1523,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_metal": {
+    "file": "cohesive/step_metal.wav",
+    "prompt": "One isolated boot footstep on solid iron, restrained metallic clink with short dull ring. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1524,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_metal": {
+    "file": "cohesive/place_metal.wav",
+    "prompt": "One isolated block set down onto solid iron, restrained metallic clink with short dull ring. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1525,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_metal": {
+    "file": "cohesive/break_metal.wav",
+    "prompt": "One isolated block breaking apart made of solid iron, restrained metallic clink with short dull ring. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1526,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_mud": {
+    "file": "cohesive/step_mud.wav",
+    "prompt": "One isolated boot footstep on wet mud, soft sticky squelch. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1527,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/place_mud": {
+    "file": "cohesive/place_mud.wav",
+    "prompt": "One isolated block set down onto wet mud, soft sticky squelch. Single compact contact, total event 130 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1528,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/break_mud": {
+    "file": "cohesive/break_mud.wav",
+    "prompt": "One isolated block breaking apart made of wet mud, soft sticky squelch. Immediate short fracture, tiny debris settling, total event 220 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1529,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/ui_move": {
+    "file": "cohesive/ui_move.wav",
+    "prompt": "Single tiny dry wooden tick, soft rounded and neutral, 50 millisecond menu navigation feedback, immediate silence. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1700,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/ui_open": {
+    "file": "cohesive/ui_open.wav",
+    "prompt": "Soft short parchment unfurl with a warm wooden click, gently rising, 180 millisecond inventory opening. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1701,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/ui_close": {
+    "file": "cohesive/ui_close.wav",
+    "prompt": "Soft short parchment fold with a low wooden tuck, gently falling, 140 millisecond inventory closing. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1702,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/ui_confirm": {
+    "file": "cohesive/ui_confirm.wav",
+    "prompt": "Two tiny warm wooden mallet notes rising a third, soft satisfying confirmation, very short 200 millisecond decay. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1703,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/pickup": {
+    "file": "cohesive/pickup.wav",
+    "prompt": "Tiny cloth pouch rustle and single soft wooden bead clink, immediate short 120 millisecond item pickup. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1704,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/ocean": {
+    "file": "cohesive/ocean.wav",
+    "prompt": "Open ocean gentle low rolling swells, soft irregular water wash and distant wind, continuous calm natural loop. Absolutely no birds, insects, animals, voices, music, shoreline pebbles or splashes. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1705,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "cohesive/wings": {
+    "file": "cohesive/wings.wav",
+    "prompt": "One powerful large leathery dragon wing downstroke, low air displacement woof with subtle taut leather flex, soft transient, isolated 450 millisecond decay. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1706,
+    "duration_seconds": 0.7,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_stone": {
+    "file": "cohesive/mob_stone.wav",
+    "prompt": "One ancient living stone creature awakening vocalization, low resonant mineral groan, grinding granite plates with gritty rock movement, heavy but restrained. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1707,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_beast": {
+    "file": "cohesive/mob_beast.wav",
+    "prompt": "One small nocturnal wolf monster throaty warning growl, breathy rough animal chest resonance, organic short snarl, no words. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1708,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_plant": {
+    "file": "cohesive/mob_plant.wav",
+    "prompt": "One animated root creature low woody creak, damp leafy rasp and root fibers straining, an organic brief grumble. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1709,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_ember": {
+    "file": "cohesive/mob_ember.wav",
+    "prompt": "One small ember creature breathy hiss, warm charcoal crackle and soft furnace puff, restrained short exhale. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1710,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_wind": {
+    "file": "cohesive/mob_wind.wav",
+    "prompt": "One small wind creature airy fluttering coo, hollow soft wind whistle with a playful breathy trill, short organic call. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1711,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_reptile": {
+    "file": "cohesive/mob_reptile.wav",
+    "prompt": "One small tortoise breathing hiss with dry shell scrape, low gentle rasp and short warm breath. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1712,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_mire": {
+    "file": "cohesive/mob_mire.wav",
+    "prompt": "One swamp creature wet guttural croak, damp low bubbling throat and short breath, close organic call. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1713,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_undead": {
+    "file": "cohesive/mob_undead.wav",
+    "prompt": "One gaunt undead creature dry raspy strained exhalation, low hollow throat rattle, short nonverbal unsettling breath. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1714,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_dragon": {
+    "file": "cohesive/mob_dragon.wav",
+    "prompt": "One large dragon low reptilian rumble, warm resonant chest growl and nostril huff, short controlled breath. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1715,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_villager": {
+    "file": "cohesive/mob_villager.wav",
+    "prompt": "One friendly cartographer quiet nonverbal thoughtful hum, soft low hmm, warm natural voice, no intelligible words. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1716,
+    "duration_seconds": 0.6,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_impact": {
+    "file": "cohesive/mob_impact.wav",
+    "prompt": "One heavy creature body strike, compact bass thud and dry debris crunch, short 180 millisecond decay. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1717,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_armor": {
+    "file": "cohesive/mob_armor.wav",
+    "prompt": "One deflected strike on a hard creature shell, short bright clack with dull underlying knock, 150 millisecond decay. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1718,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_death": {
+    "file": "cohesive/mob_death.wav",
+    "prompt": "One creature collapsing onto earth, soft heavy body thump and brief scattered dirt settling, no vocalization. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1719,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_windup": {
+    "file": "cohesive/mob_windup.wav",
+    "prompt": "One fast creature limb preparing to strike, short taut leathery flex and accelerating air swish, clear restrained warning. Close clean game sound. No background bed, no reverb, no music, no clipping.",
+    "seed": 1720,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_stone_2": {
+    "file": "cohesive/step_stone_2.wav",
+    "prompt": "One isolated boot footstep on rough stone, hard low mineral tok and fine grit. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1702,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_stone_3": {
+    "file": "cohesive/step_stone_3.wav",
+    "prompt": "One isolated boot footstep on rough stone, hard low mineral tok and fine grit. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1803,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_dirt_2": {
+    "file": "cohesive/step_dirt_2.wav",
+    "prompt": "One isolated boot footstep on packed dry earth, soft low thud and loose soil grains. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1705,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_dirt_3": {
+    "file": "cohesive/step_dirt_3.wav",
+    "prompt": "One isolated boot footstep on packed dry earth, soft low thud and loose soil grains. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1806,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_grass_2": {
+    "file": "cohesive/step_grass_2.wav",
+    "prompt": "One isolated boot footstep on springy turf, cushioned earthy thup with tiny grass rustle. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1708,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_grass_3": {
+    "file": "cohesive/step_grass_3.wav",
+    "prompt": "One isolated boot footstep on springy turf, cushioned earthy thup with tiny grass rustle. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1809,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_sand_2": {
+    "file": "cohesive/step_sand_2.wav",
+    "prompt": "One isolated boot footstep on loose sand, soft granular shuff and sliding grains. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1711,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_sand_3": {
+    "file": "cohesive/step_sand_3.wav",
+    "prompt": "One isolated boot footstep on loose sand, soft granular shuff and sliding grains. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1812,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_wood_2": {
+    "file": "cohesive/step_wood_2.wav",
+    "prompt": "One isolated boot footstep on dry timber, hollow warm woody knock and fibers. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1714,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_wood_3": {
+    "file": "cohesive/step_wood_3.wav",
+    "prompt": "One isolated boot footstep on dry timber, hollow warm woody knock and fibers. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1815,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_gravel_2": {
+    "file": "cohesive/step_gravel_2.wav",
+    "prompt": "One isolated boot footstep on loose gravel, several tiny angular pebble clicks. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1717,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_gravel_3": {
+    "file": "cohesive/step_gravel_3.wav",
+    "prompt": "One isolated boot footstep on loose gravel, several tiny angular pebble clicks. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1818,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_snow_2": {
+    "file": "cohesive/step_snow_2.wav",
+    "prompt": "One isolated boot footstep on fresh compact snow, muted powder crunch. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1720,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_snow_3": {
+    "file": "cohesive/step_snow_3.wav",
+    "prompt": "One isolated boot footstep on fresh compact snow, muted powder crunch. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1821,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_glass_2": {
+    "file": "cohesive/step_glass_2.wav",
+    "prompt": "One isolated boot footstep on solid glass, delicate high glass tick with short crystalline resonance. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1723,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_glass_3": {
+    "file": "cohesive/step_glass_3.wav",
+    "prompt": "One isolated boot footstep on solid glass, delicate high glass tick with short crystalline resonance. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1824,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_metal_2": {
+    "file": "cohesive/step_metal_2.wav",
+    "prompt": "One isolated boot footstep on solid iron, restrained metallic clink with short dull ring. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1726,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_metal_3": {
+    "file": "cohesive/step_metal_3.wav",
+    "prompt": "One isolated boot footstep on solid iron, restrained metallic clink with short dull ring. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1827,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_mud_2": {
+    "file": "cohesive/step_mud_2.wav",
+    "prompt": "One isolated boot footstep on wet mud, soft sticky squelch. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1729,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/step_mud_3": {
+    "file": "cohesive/step_mud_3.wav",
+    "prompt": "One isolated boot footstep on wet mud, soft sticky squelch. Single natural weight contact and short release, total event 180 milliseconds. Silence after the short event. Close dry gentle game foley, no repeated hits, no echo, no background, no voice, no music.",
+    "seed": 1830,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_stone_hurt": {
+    "file": "cohesive/mob_stone_hurt.wav",
+    "prompt": "One ancient living stone creature awakening vocalization, low resonant mineral groan, grinding granite plates with gritty rock movement, heavy but restrained. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2100,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_stone_death": {
+    "file": "cohesive/mob_stone_death.wav",
+    "prompt": "One ancient living stone creature awakening vocalization, low resonant mineral groan, grinding granite plates with gritty rock movement, heavy but restrained. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2101,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_beast_hurt": {
+    "file": "cohesive/mob_beast_hurt.wav",
+    "prompt": "One small nocturnal wolf monster throaty warning growl, breathy rough animal chest resonance, organic short snarl, no words. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2102,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_beast_death": {
+    "file": "cohesive/mob_beast_death.wav",
+    "prompt": "One small nocturnal wolf monster throaty warning growl, breathy rough animal chest resonance, organic short snarl, no words. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2103,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_plant_hurt": {
+    "file": "cohesive/mob_plant_hurt.wav",
+    "prompt": "One animated root creature low woody creak, damp leafy rasp and root fibers straining, an organic brief grumble. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2104,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_plant_death": {
+    "file": "cohesive/mob_plant_death.wav",
+    "prompt": "One animated root creature low woody creak, damp leafy rasp and root fibers straining, an organic brief grumble. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2105,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_ember_hurt": {
+    "file": "cohesive/mob_ember_hurt.wav",
+    "prompt": "One small ember creature breathy hiss, warm charcoal crackle and soft furnace puff, restrained short exhale. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2106,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_ember_death": {
+    "file": "cohesive/mob_ember_death.wav",
+    "prompt": "One small ember creature breathy hiss, warm charcoal crackle and soft furnace puff, restrained short exhale. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2107,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_wind_hurt": {
+    "file": "cohesive/mob_wind_hurt.wav",
+    "prompt": "One small wind creature airy fluttering coo, hollow soft wind whistle with a playful breathy trill, short organic call. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2108,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_wind_death": {
+    "file": "cohesive/mob_wind_death.wav",
+    "prompt": "One small wind creature airy fluttering coo, hollow soft wind whistle with a playful breathy trill, short organic call. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2109,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_reptile_hurt": {
+    "file": "cohesive/mob_reptile_hurt.wav",
+    "prompt": "One small tortoise breathing hiss with dry shell scrape, low gentle rasp and short warm breath. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2110,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_reptile_death": {
+    "file": "cohesive/mob_reptile_death.wav",
+    "prompt": "One small tortoise breathing hiss with dry shell scrape, low gentle rasp and short warm breath. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2111,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_mire_hurt": {
+    "file": "cohesive/mob_mire_hurt.wav",
+    "prompt": "One swamp creature wet guttural croak, damp low bubbling throat and short breath, close organic call. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2112,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_mire_death": {
+    "file": "cohesive/mob_mire_death.wav",
+    "prompt": "One swamp creature wet guttural croak, damp low bubbling throat and short breath, close organic call. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2113,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_undead_hurt": {
+    "file": "cohesive/mob_undead_hurt.wav",
+    "prompt": "One gaunt undead creature dry raspy strained exhalation, low hollow throat rattle, short nonverbal unsettling breath. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2114,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_undead_death": {
+    "file": "cohesive/mob_undead_death.wav",
+    "prompt": "One gaunt undead creature dry raspy strained exhalation, low hollow throat rattle, short nonverbal unsettling breath. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2115,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_dragon_hurt": {
+    "file": "cohesive/mob_dragon_hurt.wav",
+    "prompt": "One large dragon low reptilian rumble, warm resonant chest growl and nostril huff, short controlled breath. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2116,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_dragon_death": {
+    "file": "cohesive/mob_dragon_death.wav",
+    "prompt": "One large dragon low reptilian rumble, warm resonant chest growl and nostril huff, short controlled breath. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2117,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_villager_hurt": {
+    "file": "cohesive/mob_villager_hurt.wav",
+    "prompt": "One friendly cartographer quiet nonverbal thoughtful hum, soft low hmm, warm natural voice, no intelligible words. A single very short startled pain reaction, sharp involuntary grunt or crackle, abrupt 180 millisecond release. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2118,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "cohesive/mob_villager_death": {
+    "file": "cohesive/mob_villager_death.wav",
+    "prompt": "One friendly cartographer quiet nonverbal thoughtful hum, soft low hmm, warm natural voice, no intelligible words. A single weakening final exhale or creak dropping in pitch and fading to silence, subdued collapse, 700 milliseconds. Clearly isolated creature game foley. No intelligible words, no human scream, no music, no background, no reverb.",
+    "seed": 2119,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_idle_1": {
+    "file": "creatures-v2/warden_idle_1.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4000,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_idle_2": {
+    "file": "creatures-v2/warden_idle_2.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4001,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_alert": {
+    "file": "creatures-v2/warden_alert.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4002,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_windup": {
+    "file": "creatures-v2/warden_windup.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4003,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_impact_1": {
+    "file": "creatures-v2/warden_impact_1.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4004,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_impact_2": {
+    "file": "creatures-v2/warden_impact_2.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4005,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_move_1": {
+    "file": "creatures-v2/warden_move_1.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4006,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_move_2": {
+    "file": "creatures-v2/warden_move_2.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4007,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_armor": {
+    "file": "creatures-v2/warden_armor.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4008,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_hurt_1": {
+    "file": "creatures-v2/warden_hurt_1.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4009,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_hurt_2": {
+    "file": "creatures-v2/warden_hurt_2.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4010,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_stagger": {
+    "file": "creatures-v2/warden_stagger.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4011,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_death": {
+    "file": "creatures-v2/warden_death.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4012,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_special_1": {
+    "file": "creatures-v2/warden_special_1.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One stone plates locking into a protective brace. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4013,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_special_2": {
+    "file": "creatures-v2/warden_special_2.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One a powerful stone slam preparation. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4014,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/warden_recover": {
+    "file": "creatures-v2/warden_recover.wav",
+    "prompt": "Cairn Warden: a heavy living granite guardian; deep mineral resonance, grinding stone joints, grit and small rock chips. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4015,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_idle_1": {
+    "file": "creatures-v2/nightfang_idle_1.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4016,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_idle_2": {
+    "file": "creatures-v2/nightfang_idle_2.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4017,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_alert": {
+    "file": "creatures-v2/nightfang_alert.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4018,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_windup": {
+    "file": "creatures-v2/nightfang_windup.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4019,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_impact_1": {
+    "file": "creatures-v2/nightfang_impact_1.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4020,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_impact_2": {
+    "file": "creatures-v2/nightfang_impact_2.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4021,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_move_1": {
+    "file": "creatures-v2/nightfang_move_1.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4022,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_move_2": {
+    "file": "creatures-v2/nightfang_move_2.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4023,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_armor": {
+    "file": "creatures-v2/nightfang_armor.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4024,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_hurt_1": {
+    "file": "creatures-v2/nightfang_hurt_1.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4025,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_hurt_2": {
+    "file": "creatures-v2/nightfang_hurt_2.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4026,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_stagger": {
+    "file": "creatures-v2/nightfang_stagger.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4027,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_death": {
+    "file": "creatures-v2/nightfang_death.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4028,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_special_1": {
+    "file": "creatures-v2/nightfang_special_1.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One a fast sideways evasive scramble. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4029,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_special_2": {
+    "file": "creatures-v2/nightfang_special_2.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One a rising pack rally howl. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4030,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/nightfang_recover": {
+    "file": "creatures-v2/nightfang_recover.wav",
+    "prompt": "Nightfang: a lean nocturnal wolf predator; low nasal growls, breathy snarls, claws and coarse fur. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4031,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_idle_1": {
+    "file": "creatures-v2/mossmaw_idle_1.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4032,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_idle_2": {
+    "file": "creatures-v2/mossmaw_idle_2.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4033,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_alert": {
+    "file": "creatures-v2/mossmaw_alert.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4034,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_windup": {
+    "file": "creatures-v2/mossmaw_windup.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4035,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_impact_1": {
+    "file": "creatures-v2/mossmaw_impact_1.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4036,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_impact_2": {
+    "file": "creatures-v2/mossmaw_impact_2.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4037,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_move_1": {
+    "file": "creatures-v2/mossmaw_move_1.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4038,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_move_2": {
+    "file": "creatures-v2/mossmaw_move_2.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4039,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_armor": {
+    "file": "creatures-v2/mossmaw_armor.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4040,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_hurt_1": {
+    "file": "creatures-v2/mossmaw_hurt_1.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4041,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_hurt_2": {
+    "file": "creatures-v2/mossmaw_hurt_2.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4042,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_stagger": {
+    "file": "creatures-v2/mossmaw_stagger.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4043,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_death": {
+    "file": "creatures-v2/mossmaw_death.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4044,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_special_1": {
+    "file": "creatures-v2/mossmaw_special_1.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One roots coiling and tightening into a guard. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4045,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_special_2": {
+    "file": "creatures-v2/mossmaw_special_2.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One a wide lashing root sweep. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4046,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mossmaw_recover": {
+    "file": "creatures-v2/mossmaw_recover.wav",
+    "prompt": "Mossmaw: a hulking animated root monster; woody groans, wet bark fibers, roots and damp leaf rustles. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4047,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_idle_1": {
+    "file": "creatures-v2/ashling_idle_1.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4048,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_idle_2": {
+    "file": "creatures-v2/ashling_idle_2.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4049,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_alert": {
+    "file": "creatures-v2/ashling_alert.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4050,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_windup": {
+    "file": "creatures-v2/ashling_windup.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4051,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_impact_1": {
+    "file": "creatures-v2/ashling_impact_1.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4052,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_impact_2": {
+    "file": "creatures-v2/ashling_impact_2.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4053,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_move_1": {
+    "file": "creatures-v2/ashling_move_1.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4054,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_move_2": {
+    "file": "creatures-v2/ashling_move_2.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4055,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_armor": {
+    "file": "creatures-v2/ashling_armor.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4056,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_hurt_1": {
+    "file": "creatures-v2/ashling_hurt_1.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4057,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_hurt_2": {
+    "file": "creatures-v2/ashling_hurt_2.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4058,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_stagger": {
+    "file": "creatures-v2/ashling_stagger.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4059,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_death": {
+    "file": "creatures-v2/ashling_death.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4060,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_special_1": {
+    "file": "creatures-v2/ashling_special_1.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One a concentrated ember charge with restrained sizzling. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4061,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_special_2": {
+    "file": "creatures-v2/ashling_special_2.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One a short outward burst of sparks and hot air. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4062,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/ashling_recover": {
+    "file": "creatures-v2/ashling_recover.wav",
+    "prompt": "Ashling: a small living ember creature; airy furnace puffs, dry coal crackle and flickering flame. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4063,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_idle_1": {
+    "file": "creatures-v2/gustling_idle_1.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4064,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_idle_2": {
+    "file": "creatures-v2/gustling_idle_2.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4065,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_alert": {
+    "file": "creatures-v2/gustling_alert.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4066,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_windup": {
+    "file": "creatures-v2/gustling_windup.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4067,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_impact_1": {
+    "file": "creatures-v2/gustling_impact_1.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4068,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_impact_2": {
+    "file": "creatures-v2/gustling_impact_2.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4069,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_move_1": {
+    "file": "creatures-v2/gustling_move_1.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4070,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_move_2": {
+    "file": "creatures-v2/gustling_move_2.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4071,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_armor": {
+    "file": "creatures-v2/gustling_armor.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4072,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_hurt_1": {
+    "file": "creatures-v2/gustling_hurt_1.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4073,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_hurt_2": {
+    "file": "creatures-v2/gustling_hurt_2.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4074,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_stagger": {
+    "file": "creatures-v2/gustling_stagger.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4075,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_death": {
+    "file": "creatures-v2/gustling_death.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4076,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_special_1": {
+    "file": "creatures-v2/gustling_special_1.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One a focused pressure build and quick air spit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4077,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_special_2": {
+    "file": "creatures-v2/gustling_special_2.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One a rapid diving rush and braking air flap. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4078,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gustling_recover": {
+    "file": "creatures-v2/gustling_recover.wav",
+    "prompt": "Gustling: a small wind creature; hollow breathy coos, airy billows, soft clothlike flutter; no bird chirping. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4079,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_idle_1": {
+    "file": "creatures-v2/tortoise_idle_1.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4080,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_idle_2": {
+    "file": "creatures-v2/tortoise_idle_2.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4081,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_alert": {
+    "file": "creatures-v2/tortoise_alert.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4082,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_windup": {
+    "file": "creatures-v2/tortoise_windup.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4083,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_impact_1": {
+    "file": "creatures-v2/tortoise_impact_1.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4084,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_impact_2": {
+    "file": "creatures-v2/tortoise_impact_2.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4085,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_move_1": {
+    "file": "creatures-v2/tortoise_move_1.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4086,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_move_2": {
+    "file": "creatures-v2/tortoise_move_2.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4087,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_armor": {
+    "file": "creatures-v2/tortoise_armor.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4088,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_hurt_1": {
+    "file": "creatures-v2/tortoise_hurt_1.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4089,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_hurt_2": {
+    "file": "creatures-v2/tortoise_hurt_2.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4090,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_stagger": {
+    "file": "creatures-v2/tortoise_stagger.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4091,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_death": {
+    "file": "creatures-v2/tortoise_death.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4092,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_special_1": {
+    "file": "creatures-v2/tortoise_special_1.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One head and legs tucking into a hard shell. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4093,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_special_2": {
+    "file": "creatures-v2/tortoise_special_2.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One emerging and flaring warm embers along the shell. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4094,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/tortoise_recover": {
+    "file": "creatures-v2/tortoise_recover.wav",
+    "prompt": "Ember Tortoise: a squat warm shelled reptile; low raspy breaths, dry shell rub, tiny ember crackles. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4095,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_idle_1": {
+    "file": "creatures-v2/mirewalker_idle_1.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4096,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_idle_2": {
+    "file": "creatures-v2/mirewalker_idle_2.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4097,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_alert": {
+    "file": "creatures-v2/mirewalker_alert.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4098,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_windup": {
+    "file": "creatures-v2/mirewalker_windup.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4099,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_impact_1": {
+    "file": "creatures-v2/mirewalker_impact_1.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4100,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_impact_2": {
+    "file": "creatures-v2/mirewalker_impact_2.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4101,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_move_1": {
+    "file": "creatures-v2/mirewalker_move_1.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4102,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_move_2": {
+    "file": "creatures-v2/mirewalker_move_2.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4103,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_armor": {
+    "file": "creatures-v2/mirewalker_armor.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4104,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_hurt_1": {
+    "file": "creatures-v2/mirewalker_hurt_1.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4105,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_hurt_2": {
+    "file": "creatures-v2/mirewalker_hurt_2.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4106,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_stagger": {
+    "file": "creatures-v2/mirewalker_stagger.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4107,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_death": {
+    "file": "creatures-v2/mirewalker_death.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4108,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_special_1": {
+    "file": "creatures-v2/mirewalker_special_1.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One a wet grasping lunge with sticky stretching fingers. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4109,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_special_2": {
+    "file": "creatures-v2/mirewalker_special_2.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One a brief whole body shake throwing off mud. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4110,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/mirewalker_recover": {
+    "file": "creatures-v2/mirewalker_recover.wav",
+    "prompt": "Mirewalker: a wetland stalker; low guttural croaks, wet throat bubbles, sticky mud and damp skin. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4111,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_idle_1": {
+    "file": "creatures-v2/gravewretch_idle_1.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4112,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_idle_2": {
+    "file": "creatures-v2/gravewretch_idle_2.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4113,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_alert": {
+    "file": "creatures-v2/gravewretch_alert.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4114,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_windup": {
+    "file": "creatures-v2/gravewretch_windup.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4115,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_impact_1": {
+    "file": "creatures-v2/gravewretch_impact_1.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4116,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_impact_2": {
+    "file": "creatures-v2/gravewretch_impact_2.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4117,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_move_1": {
+    "file": "creatures-v2/gravewretch_move_1.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4118,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_move_2": {
+    "file": "creatures-v2/gravewretch_move_2.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4119,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_armor": {
+    "file": "creatures-v2/gravewretch_armor.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4120,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_hurt_1": {
+    "file": "creatures-v2/gravewretch_hurt_1.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4121,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_hurt_2": {
+    "file": "creatures-v2/gravewretch_hurt_2.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4122,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_stagger": {
+    "file": "creatures-v2/gravewretch_stagger.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4123,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_death": {
+    "file": "creatures-v2/gravewretch_death.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4124,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_special_1": {
+    "file": "creatures-v2/gravewretch_special_1.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One a low crawling surge with scraping fingers. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4125,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_special_2": {
+    "file": "creatures-v2/gravewretch_special_2.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One a tense stalking sniff and brittle neck turn. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4126,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/gravewretch_recover": {
+    "file": "creatures-v2/gravewretch_recover.wav",
+    "prompt": "Gravewretch: a gaunt undead crawler; dry nonverbal rattling breaths, creaking bones and leathery skin. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4127,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_idle_1": {
+    "file": "creatures-v2/drake_idle_1.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4128,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_idle_2": {
+    "file": "creatures-v2/drake_idle_2.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4129,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_alert": {
+    "file": "creatures-v2/drake_alert.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4130,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_windup": {
+    "file": "creatures-v2/drake_windup.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4131,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_impact_1": {
+    "file": "creatures-v2/drake_impact_1.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4132,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_impact_2": {
+    "file": "creatures-v2/drake_impact_2.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4133,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_move_1": {
+    "file": "creatures-v2/drake_move_1.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4134,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_move_2": {
+    "file": "creatures-v2/drake_move_2.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4135,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_armor": {
+    "file": "creatures-v2/drake_armor.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4136,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_hurt_1": {
+    "file": "creatures-v2/drake_hurt_1.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4137,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_hurt_2": {
+    "file": "creatures-v2/drake_hurt_2.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4138,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_stagger": {
+    "file": "creatures-v2/drake_stagger.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4139,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_death": {
+    "file": "creatures-v2/drake_death.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4140,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_special_1": {
+    "file": "creatures-v2/drake_special_1.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One a short pressurized fiery breath exhalation. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4141,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_special_2": {
+    "file": "creatures-v2/drake_special_2.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One a powerful takeoff downstroke with leather tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4142,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/drake_recover": {
+    "file": "creatures-v2/drake_recover.wav",
+    "prompt": "Cinder Drake: a large leathery dragon; low reptilian chest rumbles, muscular breaths and leathery wing flex. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4143,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_idle_1": {
+    "file": "creatures-v2/cartographer_idle_1.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One relaxed quiet breath or contented murmur. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4144,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_idle_2": {
+    "file": "creatures-v2/cartographer_idle_2.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One curious sniff or soft inquisitive murmur, distinctly different from a relaxed breath. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4145,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_alert": {
+    "file": "creatures-v2/cartographer_alert.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One sudden noticing or awakening reaction, alert but not hurt. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4146,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_windup": {
+    "file": "creatures-v2/cartographer_windup.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One tense gathering of effort immediately before an attack, an audible rising warning. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4147,
+    "duration_seconds": 0.75,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_impact_1": {
+    "file": "creatures-v2/cartographer_impact_1.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One quick attack contact, sharp compact body-weight impact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4148,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_impact_2": {
+    "file": "creatures-v2/cartographer_impact_2.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One heavier attack contact, deeper weight and a short debris tail. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4149,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_move_1": {
+    "file": "creatures-v2/cartographer_move_1.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One single limb or body movement, characteristic joints and body texture; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4150,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_move_2": {
+    "file": "creatures-v2/cartographer_move_2.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One alternative single limb or body movement, a different articulation of the same anatomy; no ground material, no repeated steps. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4151,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_armor": {
+    "file": "creatures-v2/cartographer_armor.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One strike deflected by this creature's protective surface or gear, a short resistant contact. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4152,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_hurt_1": {
+    "file": "creatures-v2/cartographer_hurt_1.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One involuntary short startled pain response, restrained. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4153,
+    "duration_seconds": 0.5,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_hurt_2": {
+    "file": "creatures-v2/cartographer_hurt_2.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One different heavier pain reaction, lower and breathier. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4154,
+    "duration_seconds": 0.65,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_stagger": {
+    "file": "creatures-v2/cartographer_stagger.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One interrupted balance loss with strained breath and body shift, distinct from a simple hit. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4155,
+    "duration_seconds": 0.85,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_death": {
+    "file": "creatures-v2/cartographer_death.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One final weakening nonverbal exhale and anatomical settling, decaying naturally to silence. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4156,
+    "duration_seconds": 1.2,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_special_1": {
+    "file": "creatures-v2/cartographer_special_1.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One a map unfolded and a thoughtful quiet hum. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4157,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_special_2": {
+    "file": "creatures-v2/cartographer_special_2.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One a leather satchel opened and tools gently shifted. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4158,
+    "duration_seconds": 0.9,
+    "loop": false,
+    "model": "medium"
+  },
+  "creatures-v2/cartographer_recover": {
+    "file": "creatures-v2/cartographer_recover.wav",
+    "prompt": "Tideglass Cartographer: a friendly traveling villager; soft nonverbal human hums, linen clothing, leather satchel and paper; no words. One tired recovery breath and body resettling after effort, relaxing tension. A single coherent isolated game foley event, close dry perspective, responsive attack and clean short decay. Express the specific physical action; avoid a generic idle call. No environmental ambience, no other animals, no birdsong, no music, no intelligible speech, no echo.",
+    "seed": 4159,
+    "duration_seconds": 0.8,
+    "loop": false,
+    "model": "medium"
+  },
+  "habitat-v2/forest_air": {
+    "file": "habitat-v2/forest_air.wav",
+    "prompt": "Soft low broadband air rustling dry leaves, a continuous irregular gentle hush. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7000,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/meadow_air": {
+    "file": "habitat-v2/meadow_air.wav",
+    "prompt": "Soft low broadband air moving through short dry grass, a faint continuous swishing texture. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7001,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/desert_air": {
+    "file": "habitat-v2/desert_air.wav",
+    "prompt": "Low soft dusty air with faint fine grains sliding, a continuous subdued sand-wind texture. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7002,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/mountain_air": {
+    "file": "habitat-v2/mountain_air.wav",
+    "prompt": "Low broad wind wash swelling slowly, soft airy rumble with no whistling tones. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7003,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/cave_air": {
+    "file": "habitat-v2/cave_air.wav",
+    "prompt": "Very soft low cavern air pressure and distant broadband rumble, steady enclosed room tone. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7004,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/shore_water": {
+    "file": "habitat-v2/shore_water.wav",
+    "prompt": "Gentle close low water wash sliding onto shore, soft uneven rolling swells, no sharp splashes. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7005,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/underwater_water": {
+    "file": "habitat-v2/underwater_water.wav",
+    "prompt": "Soft muffled underwater water motion, deep rounded broadband swishing and low current noise. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7006,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/ocean_water": {
+    "file": "habitat-v2/ocean_water.wav",
+    "prompt": "Open water low rolling swells and soft broad air wash, gently rising and falling, no land activity. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7007,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/night_air": {
+    "file": "habitat-v2/night_air.wav",
+    "prompt": "Extremely quiet low air brushing foliage with occasional soft dry leaf movement, no wildlife. Pure physical noise texture only. No birds, no insects, no chirps, no calls, no whistles, no tonal sounds, no animals, no voices, no music, no melody, no discrete high pitched events. Gentle background-level environmental sound.",
+    "seed": 7008,
+    "duration_seconds": 5.0,
+    "loop": true,
+    "model": "medium"
+  },
+  "habitat-v2/bird_call_1": {
+    "file": "habitat-v2/bird_call_1.wav",
+    "prompt": "One isolated short soft woodland songbird two-note call, natural and delicate, then silence. No flock, no repeated sequence, no wind, no other animals, no ambience, no music.",
+    "seed": 7051,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "habitat-v2/bird_call_2": {
+    "file": "habitat-v2/bird_call_2.wav",
+    "prompt": "One isolated short mellow woodland bird warble of three notes, then silence. No flock, no repeated sequence, no wind, no other animals, no ambience, no music.",
+    "seed": 7052,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  },
+  "habitat-v2/bird_call_3": {
+    "file": "habitat-v2/bird_call_3.wav",
+    "prompt": "One isolated single clear woodland bird chirrup with soft descending end, then silence. No flock, no repeated sequence, no wind, no other animals, no ambience, no music.",
+    "seed": 7053,
+    "duration_seconds": 1.0,
+    "loop": false,
+    "model": "medium"
+  }
+}

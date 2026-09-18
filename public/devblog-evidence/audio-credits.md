@@ -1,0 +1,125 @@
+# Freesound audio credits
+
+All sources below were offered under CC0 1.0. Source audio was cropped, mixed, filtered, normalized and sometimes pitch-shifted. See manifest.json for exact edits and source hashes.
+
+- [Dog Growling Snarling Grumbling](https://freesound.org/people/qubodup/sounds/122183/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 122183).
+- [Rotten Zombie Death](https://freesound.org/people/scorpion67890/sounds/151710/) by scorpion67890 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 151710).
+- [dirt/gravel footstep 1](https://freesound.org/people/Yoyodaman234/sounds/166511/) by Yoyodaman234 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 166511).
+- [dirt/gravel footstep 4](https://freesound.org/people/Yoyodaman234/sounds/223153/) by Yoyodaman234 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 223153).
+- [dirt/gravel footstep 3](https://freesound.org/people/Yoyodaman234/sounds/223154/) by Yoyodaman234 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 223154).
+- [fire-whoosh.wav](https://freesound.org/people/hnhnh/sounds/244926/) by hnhnh — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 244926).
+- [Wing Flap (Flag Flapping) 2a](https://freesound.org/people/ani_music/sounds/244978/) by ani_music — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 244978).
+- [Wing Flap (Flag Flapping) 1a](https://freesound.org/people/ani_music/sounds/244979/) by ani_music — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 244979).
+- [Wing Flap (Flag Flapping) 7a](https://freesound.org/people/ani_music/sounds/244980/) by ani_music — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 244980).
+- [Basic Fire Whoosh 2](https://freesound.org/people/LookIMadeAThing/sounds/260555/) by LookIMadeAThing — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 260555).
+- [dragon roar mild 17.aiff](https://freesound.org/people/bevibeldesign/sounds/315824/) by bevibeldesign — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 315824).
+- [Dino Hiss Dragon Roar](https://freesound.org/people/999999990/sounds/320345/) by 999999990 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 320345).
+- [Videogame Menu Button Clicking Sound 17](https://freesound.org/people/Christopherderp/sounds/333042/) by Christopherderp — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 333042).
+- [Videogame Menu Button Clicking Sound 15](https://freesound.org/people/Christopherderp/sounds/333044/) by Christopherderp — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 333044).
+- [Videogame Menu Button Clicking Sound 14](https://freesound.org/people/Christopherderp/sounds/333045/) by Christopherderp — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 333045).
+- [Videogame Menu Button Clicking Sound 18](https://freesound.org/people/Christopherderp/sounds/333047/) by Christopherderp — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 333047).
+- [Coin_C_08](https://freesound.org/people/cabled_mess/sounds/350874/) by cabled_mess — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 350874).
+- [Shovel_dirt.wav](https://freesound.org/people/dr19/sounds/353907/) by dr19 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 353907).
+- [wind-noise.wav](https://freesound.org/people/jorge0000/sounds/361053/) by jorge0000 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 361053).
+- [Fire Crackle and Flames 002](https://freesound.org/people/TheWoodlandNomad/sounds/363092/) by TheWoodlandNomad — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 363092).
+- [Fire Crackle and Flames 001](https://freesound.org/people/TheWoodlandNomad/sounds/363093/) by TheWoodlandNomad — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 363093).
+- [01-33 Footsteps, Wood, Socks, Medium Pace.wav](https://freesound.org/people/SpliceSound/sounds/369836/) by SpliceSound — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 369836).
+- [Pug Dog Grunts, Breaths, Snarls](https://freesound.org/people/EpicWizard/sounds/377001/) by EpicWizard — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 377001).
+- [sfx_snow_crush-01.wav](https://freesound.org/people/bajko/sounds/378049/) by bajko — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 378049).
+- [sfx_snow_crush-03.wav](https://freesound.org/people/bajko/sounds/378053/) by bajko — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 378053).
+- [Rock drop (edited).wav](https://freesound.org/people/16coreyn/sounds/381156/) by 16coreyn — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 381156).
+- [Footstep in the snow_03 [RAW]](https://freesound.org/people/cabled_mess/sounds/384421/) by cabled_mess — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 384421).
+- [Footstep in the snow_02 [RAW]](https://freesound.org/people/cabled_mess/sounds/384422/) by cabled_mess — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 384422).
+- [Footstep in the snow_04 [RAW]](https://freesound.org/people/cabled_mess/sounds/384424/) by cabled_mess — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 384424).
+- [Left Gravel Footstep 1](https://freesound.org/people/Ali_6868/sounds/384873/) by Ali_6868 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 384873).
+- [Right Gravel Footstep 1](https://freesound.org/people/Ali_6868/sounds/384877/) by Ali_6868 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 384877).
+- [Right Gravel Footstep 3](https://freesound.org/people/Ali_6868/sounds/384879/) by Ali_6868 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 384879).
+- [Water + straw, bubbling](https://freesound.org/people/giddster/sounds/387950/) by giddster — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 387950).
+- [Water + straw, bubbling 3](https://freesound.org/people/giddster/sounds/387951/) by giddster — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 387951).
+- [Water + straw, bubbling 2](https://freesound.org/people/giddster/sounds/387952/) by giddster — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 387952).
+- [hard breath.wav](https://freesound.org/people/rezidentevil/sounds/396048/) by rezidentevil — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 396048).
+- [water splash 1](https://freesound.org/people/swordofkings128/sounds/398038/) by swordofkings128 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 398038).
+- [Shake, Pepples, Slow Pebble Tumble High.wav](https://freesound.org/people/bbrocer/sounds/398696/) by bbrocer — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 398696).
+- [Young Dog Whimpering (WAV)](https://freesound.org/people/OBXJohn/sounds/416943/) by OBXJohn — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 416943).
+- [Fire_Crackle_02.wav](https://freesound.org/people/IPaddeh/sounds/422850/) by IPaddeh — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 422850).
+- [Single Rock Drop.wav](https://freesound.org/people/MTJohnson/sounds/426321/) by MTJohnson — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 426321).
+- [paper_rustle_2.wav](https://freesound.org/people/StarTowerStudio/sounds/426815/) by StarTowerStudio — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 426815).
+- [paper_rustle_1.wav](https://freesound.org/people/StarTowerStudio/sounds/426816/) by StarTowerStudio — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 426816).
+- [Glass Tap](https://freesound.org/people/zembacraftworks/sounds/427389/) by zembacraftworks — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 427389).
+- [Dragon Roar](https://freesound.org/people/qubodup/sounds/442964/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 442964).
+- [Dragon Hurt](https://freesound.org/people/qubodup/sounds/442966/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 442966).
+- [Dragon: Several roars, growls and snarls](https://freesound.org/people/Breviceps/sounds/479380/) by Breviceps — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 479380).
+- [Foley - Cotton clothes rustling - Fabric movement sound.wav](https://freesound.org/people/khenshom/sounds/481075/) by khenshom — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 481075).
+- [Underwater Ambience.wav](https://freesound.org/people/Tim_Verberne/sounds/482167/) by Tim_Verberne — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 482167).
+- [Ominous Creature 1_3](https://freesound.org/people/Joao_Janz/sounds/482362/) by Joao_Janz — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 482362).
+- [Slimy Creature 1_1](https://freesound.org/people/Joao_Janz/sounds/482363/) by Joao_Janz — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 482363).
+- [LeavesRustling09](https://freesound.org/people/falcospizaetus/sounds/489933/) by falcospizaetus — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 489933).
+- [LeavesRustlingFast01](https://freesound.org/people/falcospizaetus/sounds/489935/) by falcospizaetus — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 489935).
+- [LeavesRustlingFast02](https://freesound.org/people/falcospizaetus/sounds/489936/) by falcospizaetus — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 489936).
+- [LeavesRustlingFast05](https://freesound.org/people/falcospizaetus/sounds/489939/) by falcospizaetus — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 489939).
+- [Cooper Creek 20160313_014852 solitary wolf howl very clear.wav](https://freesound.org/people/betchkal/sounds/500646/) by betchkal — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 500646).
+- [Leather Stress 3 (Short)](https://freesound.org/people/Crinkem/sounds/501013/) by Crinkem — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 501013).
+- [Leather Stress 2 (Short)](https://freesound.org/people/Crinkem/sounds/501014/) by Crinkem — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 501014).
+- [Shovel in dirt](https://freesound.org/people/RavenWolfProds/sounds/503672/) by RavenWolfProds — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 503672).
+- [Hiking Boot Footsteps on Grass](https://freesound.org/people/Fission9/sounds/521587/) by Fission9 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 521587).
+- [Hiking Boot Footsteps on Stone](https://freesound.org/people/Fission9/sounds/521590/) by Fission9 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 521590).
+- [Monster / Alien Eating](https://freesound.org/people/EchoCinematics/sounds/533868/) by EchoCinematics — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 533868).
+- [Sand Step](https://freesound.org/people/Lukeo135/sounds/540728/) by Lukeo135 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 540728).
+- [wet squish 1](https://freesound.org/people/45t/sounds/546086/) by 45t — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 546086).
+- [Voice_AdultMale_DeathScream_05.wav](https://freesound.org/people/MrFossy/sounds/547188/) by MrFossy — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 547188).
+- [Voice_AdultMale_PainGrunts_04.wav](https://freesound.org/people/MrFossy/sounds/547200/) by MrFossy — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 547200).
+- [BGSaSc Water Beach Ocean Waves Constant Splashing Rocks Many Small Waves Greece 16](https://freesound.org/people/Profispiesser/sounds/550915/) by Profispiesser — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 550915).
+- [Zombie Pain 1.wav](https://freesound.org/people/tonsil5/sounds/555424/) by tonsil5 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 555424).
+- [snd_footsteps_metal_floor_inside.wav](https://freesound.org/people/gristi/sounds/562195/) by gristi — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 562195).
+- [Foley_Rocks_Stones_Impacts_Mono.wav](https://freesound.org/people/Nox_Sound/sounds/567701/) by Nox_Sound — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 567701).
+- [20180429_Squeezing a big, wet sponge.wav](https://freesound.org/people/cabled_mess/sounds/571471/) by cabled_mess — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 571471).
+- [large leaves rustle in the wind sound effect](https://freesound.org/people/Garuda1982/sounds/575645/) by Garuda1982 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 575645).
+- [Heavy stone door opens](https://freesound.org/people/PostProdDog/sounds/578490/) by PostProdDog — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 578490).
+- [Heavy stone door opens 2](https://freesound.org/people/PostProdDog/sounds/578491/) by PostProdDog — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 578491).
+- [Fingers nails on glass bottle - tap.wav](https://freesound.org/people/ValentinPetiteau/sounds/610392/) by ValentinPetiteau — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 610392).
+- [pencil snap break wood crack fruit stem branch twig.flac](https://freesound.org/people/kyles/sounds/637746/) by kyles — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 637746).
+- [Glass Tap 2](https://freesound.org/people/CJspellsfish/sounds/668383/) by CJspellsfish — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 668383).
+- [SFX_wood_crack_destroy_burst_03.wav](https://freesound.org/people/EricsSoundschmiede/sounds/669453/) by EricsSoundschmiede — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 669453).
+- [SFX_wood_crack_destroy_burst_02.wav](https://freesound.org/people/EricsSoundschmiede/sounds/669454/) by EricsSoundschmiede — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 669454).
+- [SFX_wood_crack_destroy_burst_01.wav](https://freesound.org/people/EricsSoundschmiede/sounds/669455/) by EricsSoundschmiede — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 669455).
+- [SFX_wood_cracking.wav](https://freesound.org/people/EricsSoundschmiede/sounds/669457/) by EricsSoundschmiede — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 669457).
+- [Huge wing flaps for bird, dragon, dinosaur.](https://freesound.org/people/2create/sounds/670509/) by 2create — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 670509).
+- [S31-09 Flare whoosh.wav](https://freesound.org/people/craigsmith/sounds/675772/) by craigsmith — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 675772).
+- [Hard Impact on Gravel](https://freesound.org/people/Elements-Library/sounds/683787/) by Elements-Library — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 683787).
+- [Movement on Sand](https://freesound.org/people/Elements-Library/sounds/683792/) by Elements-Library — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 683792).
+- [METLImpt_Metal Resonant Deep Impact With Rattle_SDFY_Metal Resonant.wav](https://freesound.org/people/SoundDesignForYou/sounds/697749/) by SoundDesignForYou — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 697749).
+- [METLImpt_Metal Resonant Impact With Long Tail_SDFY_Metal Resonant_01.wav](https://freesound.org/people/SoundDesignForYou/sounds/697752/) by SoundDesignForYou — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 697752).
+- [Shovel in dirt (angry).wav](https://freesound.org/people/LiezelDippenaar/sounds/707535/) by LiezelDippenaar — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 707535).
+- [wind 2](https://freesound.org/people/ZIP.Creates/sounds/726313/) by ZIP.Creates — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 726313).
+- [wind 3](https://freesound.org/people/ZIP.Creates/sounds/726314/) by ZIP.Creates — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 726314).
+- [wind 5](https://freesound.org/people/ZIP.Creates/sounds/726316/) by ZIP.Creates — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 726316).
+- [wind 6](https://freesound.org/people/ZIP.Creates/sounds/726317/) by ZIP.Creates — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 726317).
+- [paper_Rustling_02](https://freesound.org/people/Spaghetto87/sounds/731483/) by Spaghetto87 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 731483).
+- [Whoosh 02](https://freesound.org/people/velcronator/sounds/733889/) by velcronator — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 733889).
+- [Whoosh 03](https://freesound.org/people/velcronator/sounds/733890/) by velcronator — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 733890).
+- [Leather - Creak, heavy jacket](https://freesound.org/people/Vrymaa/sounds/734549/) by Vrymaa — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 734549).
+- [Leather - Creak, soft](https://freesound.org/people/Vrymaa/sounds/734598/) by Vrymaa — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 734598).
+- [Belt buckle - Leather jacket](https://freesound.org/people/Vrymaa/sounds/734599/) by Vrymaa — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 734599).
+- [Leather - Rub & creaks](https://freesound.org/people/Vrymaa/sounds/734630/) by Vrymaa — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 734630).
+- [SingleKnock_Wood](https://freesound.org/people/NoisyRedFox/sounds/742356/) by NoisyRedFox — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 742356).
+- [Move Stone Rune 1](https://freesound.org/people/qubodup/sounds/743243/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 743243).
+- [Move Stone Rune 2](https://freesound.org/people/qubodup/sounds/743244/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 743244).
+- [Move Stone Rune 3](https://freesound.org/people/qubodup/sounds/743245/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 743245).
+- [Move Stone Rune 4](https://freesound.org/people/qubodup/sounds/743246/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 743246).
+- [Dropping Rock 1](https://freesound.org/people/OutbreakProtocol/sounds/746473/) by OutbreakProtocol — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 746473).
+- [Zombie Groan 0](https://freesound.org/people/OwNathan/sounds/754438/) by OwNathan — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 754438).
+- [Zombie Groan 2](https://freesound.org/people/OwNathan/sounds/754440/) by OwNathan — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 754440).
+- [Squishes for Mud, Fruit, and Blood](https://freesound.org/people/JelloApocalypse/sounds/802616/) by JelloApocalypse — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 802616).
+- [Curious Bird Chirp](https://freesound.org/people/qubodup/sounds/812030/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 812030).
+- [Excited Bird Chirp](https://freesound.org/people/qubodup/sounds/812033/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 812033).
+- [Smart Bird Chirp](https://freesound.org/people/qubodup/sounds/812035/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 812035).
+- [Whining Dog Training](https://freesound.org/people/qubodup/sounds/825629/) by qubodup — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 825629).
+- [Imitation of wolf growls](https://freesound.org/people/Ovkovko/sounds/826786/) by Ovkovko — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 826786).
+- [Ocean_coast_03_092025_0659AM](https://freesound.org/people/YevgVerh/sounds/827529/) by YevgVerh — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 827529).
+- [Stone Slab Door Grinding - Heavy Rock Scrape (Mono)](https://freesound.org/people/NahuelMartinez/sounds/844329/) by NahuelMartinez — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 844329).
+- [Glass Break 1](https://freesound.org/people/ElevatorFan2020/sounds/848281/) by ElevatorFan2020 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 848281).
+- [Reptiles - Sulcata Tortoise; Breeding Croak from Male](https://freesound.org/people/TheKingOfGeeks360/sounds/850006/) by TheKingOfGeeks360 — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 850006).
+- [AMBUndr_Subterranean Howling Wind Loop_KOLBYR_FREE SOUNDS](https://freesound.org/people/KolbyRFX/sounds/852822/) by KolbyRFX — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 852822).
+- [Fs_Sand_01](https://freesound.org/people/renandosanjos/sounds/854616/) by renandosanjos — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 854616).
+- [Fs_Sand_02](https://freesound.org/people/renandosanjos/sounds/854617/) by renandosanjos — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 854617).
+- [Fs_Sand_03](https://freesound.org/people/renandosanjos/sounds/854618/) by renandosanjos — [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/) (Freesound 854618).

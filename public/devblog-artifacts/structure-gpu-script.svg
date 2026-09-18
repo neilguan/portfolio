@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">GPU-friendly structure scripting experiment</title>
+  <desc id="desc">A scripting path optimized for throughput, with a separate visual representation gap.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">STRUCTURE TEST / 02</text>
+    <rect x="42" y="104" width="210" height="82" fill="#24353a" stroke="#86b9aa"/><text x="66" y="138" font-size="16">GPU-friendly DSL</text><text x="66" y="164" font-size="13" fill="#c4d3cf">fast description</text>
+    <path d="M252 145h74" stroke="#86b9aa" stroke-width="2"/><path d="m312 135 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="326" y="104" width="164" height="82" fill="#24353a" stroke="#86b9aa"/><text x="348" y="138" font-size="16">renderer</text><text x="348" y="164" font-size="13" fill="#c4d3cf">throughput</text>
+    <path d="M490 145h42" stroke="#c9785f" stroke-width="2"/><path d="m518 135 14 10-14 10" fill="none" stroke="#c9785f" stroke-width="2"/>
+    <rect x="532" y="104" width="146" height="82" fill="#3a2b2a" stroke="#c9785f"/><text x="550" y="138" font-size="16" fill="#f0b09b">not enough</text><text x="550" y="164" font-size="13" fill="#e3c5bd">visual proof</text>
+    <text x="42" y="256" font-size="15" fill="#c4d3cf">The language solved representation of data.</text><text x="42" y="286" font-size="17">It did not solve representation of place.</text>
+  </g>
+</svg>

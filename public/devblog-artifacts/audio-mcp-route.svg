@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Stable Audio MCP local route diagram</title>
+  <desc id="desc">A local audio route showing one loaded model, a request queue, and recorded output metadata.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">AUDIO ROUTE / 03</text>
+    <rect x="42" y="104" width="180" height="92" fill="#24353a" stroke="#86b9aa"/>
+    <text x="64" y="140" font-size="17">MCP server</text><text x="64" y="168" font-size="13" fill="#c4d3cf">model loaded once</text>
+    <path d="M222 150h58" stroke="#86b9aa" stroke-width="2"/><path d="m268 140 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="284" y="104" width="156" height="92" fill="#24353a" stroke="#86b9aa"/>
+    <text x="305" y="140" font-size="17">queue</text><text x="305" y="168" font-size="13" fill="#c4d3cf">seed + prompt</text>
+    <path d="M440 150h58" stroke="#86b9aa" stroke-width="2"/><path d="m484 140 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="502" y="104" width="176" height="92" fill="#24353a" stroke="#86b9aa"/>
+    <text x="524" y="140" font-size="17">WAV folder</text><text x="524" y="168" font-size="13" fill="#c4d3cf">path · duration · seed</text>
+    <text x="42" y="264" font-size="14" fill="#c4d3cf">Repeatability before taste:</text>
+    <text x="42" y="292" font-size="17">make the route stable enough to judge.</text>
+  </g>
+</svg>

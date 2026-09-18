@@ -1,0 +1,282 @@
+[
+  {
+    "control": "identical stone",
+    "passed": false,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "uncertain",
+      "louder": "uncertain",
+      "distorted": "same",
+      "clickier": "same",
+      "confidence": "low",
+      "observations": "Both segments sound like similar short, percussive click/tap events with a brief silent gap between them. I don\u2019t hear obvious distortion differences, and the click character seems similar. If there is a level difference, it\u2019s subtle and hard to judge from this clip alone."
+    },
+    "usage": {
+      "total_tokens": 902,
+      "input_tokens": 628,
+      "output_tokens": 274,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 274,
+        "audio_tokens": 0,
+        "reasoning_tokens": 150
+      }
+    },
+    "response_id": "resp_EOZ70npkMTZsW3zgym5ZW"
+  },
+  {
+    "control": "12 dB level difference",
+    "passed": false,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "uncertain",
+      "louder": "uncertain",
+      "distorted": "same",
+      "clickier": "same",
+      "confidence": "low",
+      "observations": "Both segments sound like similar footstep-like taps with a brief silent gap between them. I don\u2019t hear obvious distortion in either. The click/tap character seems comparable. Any loudness difference is subtle at best, so I\u2019m not confident calling one louder. Overall they are very close, but I can\u2019t be sure they\u2019re identical."
+    },
+    "usage": {
+      "total_tokens": 839,
+      "input_tokens": 628,
+      "output_tokens": 211,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 211,
+        "audio_tokens": 0,
+        "reasoning_tokens": 73
+      }
+    },
+    "response_id": "resp_EOZ74wTmsdSAewaUo0v4g"
+  },
+  {
+    "control": "RMS-matched hard clipping",
+    "passed": false,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "uncertain",
+      "louder": "uncertain",
+      "distorted": "uncertain",
+      "clickier": "uncertain",
+      "confidence": "low",
+      "observations": "Both segments sound like simple repeating footstep taps with a brief silence in between. I don\u2019t hear clear differences in level, distortion, or extra clicks, but the material is minimal and could be too similar or too short to judge reliably."
+    },
+    "usage": {
+      "total_tokens": 872,
+      "input_tokens": 628,
+      "output_tokens": 244,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 244,
+        "audio_tokens": 0,
+        "reasoning_tokens": 121
+      }
+    },
+    "response_id": "resp_EOZ78bRlgY6UQmkoSznc6"
+  },
+  {
+    "control": "injected 1 ms clicks",
+    "passed": false,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "uncertain",
+      "louder": "uncertain",
+      "distorted": "uncertain",
+      "clickier": "uncertain",
+      "confidence": "low",
+      "observations": "I can\u2019t reliably distinguish A and B from the provided audio here. Any differences in loudness, distortion, or clickiness aren\u2019t clearly audible to me, so I\u2019m marking the comparison as uncertain rather than guessing."
+    },
+    "usage": {
+      "total_tokens": 811,
+      "input_tokens": 628,
+      "output_tokens": 183,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 183,
+        "audio_tokens": 0,
+        "reasoning_tokens": 67
+      }
+    },
+    "response_id": "resp_EOZ7BUskQdtfW7wqLQqoc"
+  },
+  {
+    "control": "identical water",
+    "passed": true,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "no",
+      "louder": "same",
+      "distorted": "same",
+      "clickier": "same",
+      "confidence": "low",
+      "observations": "Both segments sound like very low-level noise or near-silence with no clear events. I don\u2019t hear distinct content to compare, and any differences are not audible to me. No obvious clicks, distortion, or loudness change stands out; they seem indistinguishable."
+    },
+    "usage": {
+      "total_tokens": 838,
+      "input_tokens": 628,
+      "output_tokens": 210,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 210,
+        "audio_tokens": 0,
+        "reasoning_tokens": 85
+      }
+    },
+    "response_id": "resp_EOZ7Ew2QCNt0tY3e8g0WQ"
+  },
+  {
+    "control": "level order reversal",
+    "passed": false,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "no",
+      "louder": "same",
+      "distorted": "same",
+      "clickier": "same",
+      "confidence": "low",
+      "observations": "Both clips sound like the same short sequence of clean, percussive clicks at a similar level. I don\u2019t hear extra grit, clipping, or added artifacts in either, and the click character seems equally sharp. Any difference is too subtle to reliably pick out."
+    },
+    "usage": {
+      "total_tokens": 871,
+      "input_tokens": 628,
+      "output_tokens": 243,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 243,
+        "audio_tokens": 0,
+        "reasoning_tokens": 126
+      }
+    },
+    "response_id": "resp_EOZ7HjDmPHLW26b6XgTnf"
+  },
+  {
+    "control": "clipping order reversal",
+    "passed": false,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "uncertain",
+      "louder": "same",
+      "distorted": "same",
+      "clickier": "same",
+      "confidence": "low",
+      "observations": "Both segments sound like similar short, clean footstep-like taps with a brief pause between them. I don\u2019t hear clear differences in loudness, distortion, or extra clicks. Any variation is subtle enough that I can\u2019t confidently call one segment louder, more distorted, or clickier than the other."
+    },
+    "usage": {
+      "total_tokens": 817,
+      "input_tokens": 628,
+      "output_tokens": 189,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 189,
+        "audio_tokens": 0,
+        "reasoning_tokens": 58
+      }
+    },
+    "response_id": "resp_EOZ7JwcOiuCdJUOPNRZPb"
+  },
+  {
+    "control": "click order reversal",
+    "passed": false,
+    "model": "gpt-realtime-2.1",
+    "comparison": {
+      "different": "uncertain",
+      "louder": "uncertain",
+      "distorted": "uncertain",
+      "clickier": "uncertain",
+      "confidence": "low",
+      "observations": "Both segments sound like short, sparse clicking or tick-like noises with very little context. I don\u2019t hear a clear difference in level, distortion, or click intensity, but the material is minimal and could be masked by noise. I can\u2019t confidently tell if they\u2019re the same or different based on what\u2019s audible."
+    },
+    "usage": {
+      "total_tokens": 837,
+      "input_tokens": 628,
+      "output_tokens": 209,
+      "input_token_details": {
+        "text_tokens": 543,
+        "audio_tokens": 85,
+        "image_tokens": 0,
+        "cached_tokens": 0,
+        "cached_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        }
+      },
+      "output_token_details": {
+        "text_tokens": 209,
+        "audio_tokens": 0,
+        "reasoning_tokens": 71
+      }
+    },
+    "response_id": "resp_EOZ7MCjVoYNiYEzFlTZdg"
+  }
+]

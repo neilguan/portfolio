@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Paid hosted audio route decision diagram</title>
+  <desc id="desc">A route from hosted audio generation to two blocking constraints: hobby budget and workflow fit.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">AUDIO ROUTE / 02</text>
+    <text x="42" y="98" font-size="24">ElevenLabs</text>
+    <text x="42" y="128" font-size="14" fill="#c4d3cf">hosted generation</text>
+    <path d="M270 112H370" stroke="#86b9aa" stroke-width="2"/>
+    <path d="m358 102 14 10-14 10" fill="none" stroke="#86b9aa" stroke-width="2"/>
+    <rect x="390" y="70" width="278" height="74" fill="#24353a" stroke="#86b9aa"/>
+    <text x="414" y="102" font-size="15">candidate cue</text>
+    <text x="414" y="126" font-size="13" fill="#c4d3cf">usable file ≠ usable workflow</text>
+    <path d="M529 144v45M529 189H219v39M529 189h0v39" stroke="#c9785f" stroke-width="2" fill="none"/>
+    <rect x="42" y="228" width="250" height="76" fill="#3a2b2a" stroke="#c9785f"/>
+    <text x="64" y="260" font-size="15" fill="#f0b09b">cost</text>
+    <text x="64" y="284" font-size="13" fill="#e3c5bd">too expensive for a hobby bank</text>
+    <rect x="404" y="228" width="264" height="76" fill="#3a2b2a" stroke="#c9785f"/>
+    <text x="426" y="260" font-size="15" fill="#f0b09b">workflow fit</text>
+    <text x="426" y="284" font-size="13" fill="#e3c5bd">not enough room to iterate</text>
+  </g>
+</svg>

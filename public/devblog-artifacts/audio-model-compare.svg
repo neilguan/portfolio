@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Stable Audio model comparison diagram</title>
+  <desc id="desc">A comparison of Small-SFX and Medium across timbre, density, and scene fit.</desc>
+  <rect width="720" height="360" fill="#172129"/>
+  <g font-family="monospace" fill="#f3f0e8">
+    <text x="42" y="54" font-size="16" fill="#86b9aa">AUDIO TEST / 04</text>
+    <text x="42" y="98" font-size="22">same route · different model</text>
+    <text x="60" y="152" font-size="16" fill="#c4d3cf">criterion</text><text x="330" y="152" font-size="16" fill="#c4d3cf">Small-SFX</text><text x="520" y="152" font-size="16" fill="#c4d3cf">Medium</text>
+    <path d="M42 170H678M42 222H678M42 274H678" stroke="#41545a"/>
+    <text x="60" y="204" font-size="15">timbre</text><text x="330" y="204" font-size="15" fill="#86b9aa">clearer</text><text x="520" y="204" font-size="15" fill="#f0b09b">not automatic</text>
+    <text x="60" y="256" font-size="15">density</text><text x="330" y="256" font-size="15" fill="#f0b09b">watch it</text><text x="520" y="256" font-size="15" fill="#f0b09b">watch it</text>
+    <text x="60" y="308" font-size="15">scene fit</text><text x="330" y="308" font-size="15" fill="#c4d3cf">listen</text><text x="520" y="308" font-size="15" fill="#c4d3cf">listen</text>
+  </g>
+</svg>

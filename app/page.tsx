@@ -1,5 +1,8 @@
 'use client';
 
+// This page also ships as a plain React build on GitHub Pages.
+/* eslint-disable next/no-img-element, next/no-html-link-for-pages */
+
 import { useEffect, useState } from 'react';
 import {
   ArrowDown,
@@ -55,42 +58,36 @@ const voxelScenes = [
   },
 ];
 
-const flightTestRows = [
+const verificationRows = [
   {
-    flight: 'Unit test',
-    purpose: 'Prove one calculation against known inputs and outputs.',
-    engine: 'Pure coordinate, hash, terrain-math, and address-table checks.',
+    stage: 'Start small',
+    purpose: 'Catch mistakes before they reach the world.',
+    method:
+      'Check individual calculations and content rules against known answers.',
   },
   {
-    flight: 'Software component test',
-    purpose: 'Exercise one software component with controlled interfaces.',
-    engine:
-      'gentest, mattest, and tabletest isolate generation, materials, and lookup behavior.',
+    stage: 'Compare independently',
+    purpose: 'Find terrain that looks plausible but is calculated incorrectly.',
+    method:
+      'Generate the same terrain on the CPU and GPU and compare the results.',
   },
   {
-    flight: 'Approved qualification harness / automated FQT',
-    purpose:
-      'Run repeatable requirement checks in a specialized, controlled rig.',
-    engine:
-      'alloctest and terrainagrees apply fixed stress envelopes and automated pass/fail oracles.',
+    stage: 'Exercise the whole renderer',
+    purpose: 'Catch failures where otherwise working components meet.',
+    method:
+      'Run world loading, terrain generation, mesh creation, and visibility checks together.',
   },
   {
-    flight: 'Integrated ground test',
-    purpose: 'Operate connected aircraft systems together before flight.',
-    engine:
-      'frametest runs the real headless GPU pipeline: residency, generation, meshing, allocation, and culling.',
+    stage: 'Fly through the world',
+    purpose: 'Expose gaps and instability as the landscape streams in.',
+    method:
+      'Repeat a fast flight path while nearby and distant terrain change detail.',
   },
   {
-    flight: 'Flight test',
-    purpose: 'Exercise the complete vehicle while operating conditions change.',
-    engine:
-      'flytest moves through LOD transitions and streaming pressure for 1,800 frames.',
-  },
-  {
-    flight: 'Independent instrumentation',
-    purpose: 'Verify the system with a separate measurement path.',
-    engine:
-      'CPU/GPU mirror checks and audit verify coverage, repeatability, and cross-implementation agreement.',
+    stage: 'Save, reopen, and reconnect',
+    purpose: 'Check that progress survives and players see the same world.',
+    method:
+      'Exercise saved changes, shared gameplay, and players joining an existing session.',
   },
 ];
 
@@ -140,8 +137,13 @@ export default function Home() {
         if (!response.ok) throw new Error('Citation lookup failed');
         return response.json();
       })
-      .then((data: { citationCount?: number }) => {
-        if (typeof data.citationCount === 'number') {
+      .then((data: unknown) => {
+        if (
+          data &&
+          typeof data === 'object' &&
+          'citationCount' in data &&
+          typeof data.citationCount === 'number'
+        ) {
           setCitationCount(Math.max(BASELINE_CITATIONS, data.citationCount));
         }
         setCitationChecked(true);
@@ -166,6 +168,7 @@ export default function Home() {
           <a href="#haptics">Haptic gloves</a>
           <a href="#hardware">Longboard</a>
           <a href="#workflow">AI workflow</a>
+          <a href="/devblog">Devblog ↗</a>
         </nav>
       </header>
 
@@ -204,12 +207,12 @@ export default function Home() {
             <dd>while fast-flying across the world</dd>
           </div>
           <div>
-            <dt>9 LODs</dt>
-            <dd>cubic chunks from nearby detail to the horizon</dd>
+            <dt>9 detail levels</dt>
+            <dd>close-up blocks and landscapes visible to the horizon</dd>
           </div>
           <div>
-            <dt>4M+ / 0</dt>
-            <dd>voxels checked / mismatches in a representative mirror run</dd>
+            <dt>Repeatable worlds</dt>
+            <dd>recreate the same terrain to investigate and fix a bug</dd>
           </div>
         </dl>
 
@@ -249,62 +252,194 @@ export default function Home() {
             <p className="eyebrow">AI orchestration engineering</p>
             <h3>From an infinite world to an AI-extensible one</h3>
             <p className="orchestration-lede">
-              This is orchestration engineering: a Luna agent receives a bounded
-              brief, works unattended for roughly 24 hours, and returns a
-              reviewed batch of new biomes, structures, trees, and mobs through
-              stable engine extension points.
+              I built a workflow for giving a Luna agent a focused content brief
+              and letting it work unattended for roughly a day. It returns new
+              biomes, structures, trees, or creatures with repeatable examples
+              and visual reviews. Defined places to add content let me expand
+              the world without reworking the renderer for every addition.
             </p>
             <ol className="orchestration-steps">
               <li>
-                <strong>Bound</strong>
-                <span>Assign one focused brief and one reserved module.</span>
+                <strong>Brief</strong>
+                <span>
+                  Give each agent a clear goal and its own area to change.
+                </span>
               </li>
               <li>
                 <strong>Verify</strong>
                 <span>
-                  Return deterministic seeds, targeted tests, and visual
-                  evidence.
+                  Return repeatable scenes, focused checks, and screenshots.
                 </span>
               </li>
               <li>
                 <strong>Isolate</strong>
                 <span>
-                  Reject a failed branch without destabilizing the renderer or
-                  the rest of the batch.
+                  Review each contribution separately so a failed experiment
+                  does not disrupt the rest of the work.
                 </span>
               </li>
               <li>
                 <strong>Repeat</strong>
                 <span>
-                  Run the same controlled process again to build effectively
-                  endless content.
+                  Reuse the brief, tools, and checks for the next batch of
+                  content.
                 </span>
               </li>
             </ol>
           </div>
-          <div className="content-proof-grid">
-            <figure>
-              <img
-                src="./voxel-oak.jpg"
-                alt="Generated old-growth oak integrated into the voxel world"
-                loading="lazy"
-              />
-              <figcaption>
-                <strong>Automatic structure generation</strong>
-                Seeded old-growth oak template
-              </figcaption>
-            </figure>
-            <figure>
-              <img
-                src="./mob-skin.jpg"
-                alt="Review sheet for a code-generated Tideglass Cartographer mob skin"
-                loading="lazy"
-              />
-              <figcaption>
-                <strong>Automatic mob generation</strong>
-                Code-generated skin with multi-view review
-              </figcaption>
-            </figure>
+          <div className="content-proof-grid asset-showcase">
+            {[
+              {
+                src: './showcase/airship-hero.png',
+                title: 'A steampunk airship, built through MineBench',
+                text: 'Structure study · patchwork balloon, wooden hull, brass engines, and a glass bridge.',
+                alt: 'Detailed voxel airship with a multicolored balloon and wooden hull',
+                wide: true,
+              },
+              {
+                src: './showcase/airship-detail.png',
+                title: 'Construction that holds up close',
+                text: 'Hull and balloon detail · inspect the same build from several angles.',
+                alt: 'Close view of the airship construction and balloon detailing',
+              },
+              {
+                src: './showcase/airship-interior.png',
+                title: 'An interior as well as a silhouette',
+                text: 'Bridge study · glazing, controls, lanterns, and roof beams.',
+                alt: 'Furnished glass bridge inside the voxel airship',
+              },
+              {
+                src: './showcase/nightfang.jpg',
+                title: 'Nightfang · Blender geometry, Aseprite textures',
+                text: 'Sharp cuboid modeling, a layered pixel-art skin, and an articulated rig. Front, side, rear, and motion views show how the design holds together.',
+                alt: 'Nightfang, a dark block-built canine with amber eyes, shown from multiple angles and in walking poses',
+                wide: true,
+              },
+            ].map((asset) => (
+              <figure
+                key={asset.src}
+                className={asset.wide ? 'showcase-wide' : undefined}
+              >
+                <a
+                  href={asset.src}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open full-resolution image: ${asset.title}`}
+                >
+                  <img src={asset.src} alt={asset.alt} loading="lazy" />
+                </a>
+                <figcaption>
+                  <strong>{asset.title}</strong>
+                  <span>{asset.text}</span>
+                  <a href={asset.src} target="_blank" rel="noreferrer">
+                    Open full resolution ↗
+                  </a>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+          <div className="tooling-intro">
+            <p className="eyebrow">The development toolchain</p>
+            <h3>Give agents tools they can actually iterate with</h3>
+            <p>
+              I turned repeated setup, asset editing, and review steps into
+              reusable workflows. MCP (Model Context Protocol) connects agents
+              to applications so they can perform specific operations, inspect
+              the result, and revise it. Skills preserve the process for the
+              next session.
+            </p>
+          </div>
+          <div className="tooling-grid">
+            <article>
+              <span className="tooling-index">01 / Structures</span>
+              <h4>MineBench</h4>
+              <p>
+                I replaced a custom structure harness with MineBench’s existing
+                prompts, importer, converter, textures, and viewer. That moved
+                the work toward improving the build itself. Adapting that
+                foundation to terrain and survival play is the next step.
+              </p>
+              <a href="/devblog/structures">See the airship iterations ↗</a>
+            </article>
+            <article>
+              <span className="tooling-index">02 / Models & motion</span>
+              <h4>Blender + MCP</h4>
+              <p>
+                Agents can author geometry, organize joints, animate, and render
+                views through Blender. Batched geometry scripts keep heavy work
+                local. Saved views and motion previews make it easier to revise
+                a pose or joint without starting the model again.
+              </p>
+              <a href="/devblog/rigging">Explore creature development ↗</a>
+            </article>
+            <article>
+              <span className="tooling-index">03 / Pixel art</span>
+              <h4>Aseprite + MCP</h4>
+              <p>
+                I compiled Aseprite and connected its layers, frames, palettes,
+                and exports to the agent. A spell effect can be revised on its
+                own layer while the character stays intact; frame previews make
+                the feedback specific.
+              </p>
+              <a href="/devblog/pixel-art">See the sprite workflow ↗</a>
+            </article>
+            <article>
+              <span className="tooling-index">04 / Sound</span>
+              <h4>Local audio tools</h4>
+              <p>
+                I built a local Stable Audio generation workflow and used
+                Freesound through MCP for sourcing. Local trimming, filtering,
+                and level adjustment handle the mechanical steps, while
+                listening guides the choice of sound.
+              </p>
+              <a href="/devblog/audio">Explore the audio experiments ↗</a>
+            </article>
+          </div>
+          <figure className="sprite-workflow">
+            <img
+              src="./devblog-evidence/fox-final.png"
+              alt="Six frames of an Aseprite-authored fox mage casting a blue flame spell"
+              loading="lazy"
+            />
+            <figcaption>
+              <strong>Editable animation, frame by frame.</strong> The fox,
+              staff, and spell are separate layers, making small visual
+              corrections practical.
+            </figcaption>
+          </figure>
+          <div className="extensibility-panel">
+            <div>
+              <p className="eyebrow">Lua extensibility · in development</p>
+              <h3>New gameplay without rebuilding the engine around it</h3>
+            </div>
+            <div>
+              <p>
+                I’m adding a Lua gameplay layer so abilities and creature
+                decisions can live in small content packages. Rust continues to
+                own movement, collision, damage, inventory, and the shared-world
+                clock. Scripts compose those capabilities through a defined
+                interface.
+              </p>
+              <p>
+                The implemented host checks package versions, limits script
+                resources, and supports controlled source reloads that preserve
+                the previous version if a reload fails. Save and multiplayer
+                integration are being developed around the same runtime; native
+                gameplay validation is still in progress.
+              </p>
+            </div>
+          </div>
+          <div className="workflow-summary">
+            <h4>Less setup between an idea and a useful result</h4>
+            <p>
+              I consolidated developer commands, added guides that point each
+              feature to its implementation and checks, and moved shared
+              gameplay rules into common code. Reusable authoring skills, a
+              shared texture library, and repeatable review captures reduce the
+              work each new session has to rediscover. Together, these changes
+              let me spend more time on content and behavior, with smaller
+              changes to review.
+            </p>
           </div>
         </article>
       </section>
@@ -316,45 +451,37 @@ export default function Home() {
       >
         <div className="case-intro">
           <p className="eyebrow">Verification architecture</p>
-          <h2 id="testing-title">Testing like a flight program</h2>
+          <h2 id="testing-title">Fast iteration needs trustworthy checks</h2>
           <p>
-            This project was built heavily with Claude Code, Codex, and
-            specialized AI agents. That made verification more important:
-            plausible GPU and world-generation bugs can survive screenshots,
-            demos, and ordinary unit tests. The response was a ladder of
-            increasingly realistic rigs.
+            A good screenshot cannot tell me whether terrain will disappear
+            during flight or a saved change will survive a restart. I built
+            checks that move from individual calculations to the running world,
+            so AI-assisted changes can be reviewed with more than a visual
+            impression.
           </p>
         </div>
 
         <div className="table-wrap">
           <table>
-            <caption>
-              Flight-program concepts translated into software verification
-            </caption>
+            <caption>What I check, and why it matters</caption>
             <thead>
               <tr>
-                <th scope="col">Flight program</th>
-                <th scope="col">What it proves</th>
-                <th scope="col">mcgpu-v3 analogue</th>
+                <th scope="col">Check</th>
+                <th scope="col">Why it matters</th>
+                <th scope="col">How it works</th>
               </tr>
             </thead>
             <tbody>
-              {flightTestRows.map((row) => (
-                <tr key={row.flight}>
-                  <th scope="row">{row.flight}</th>
+              {verificationRows.map((row) => (
+                <tr key={row.stage}>
+                  <th scope="row">{row.stage}</th>
                   <td>{row.purpose}</td>
-                  <td>{row.engine}</td>
+                  <td>{row.method}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
-
-        <p className="analogy-note">
-          <strong>Scope note:</strong> this is an engineering analogy. The
-          mcgpu-v3 harnesses are not government-approved qualification equipment
-          or formal certification artifacts.
-        </p>
 
         <aside
           className="evidence-strip"
@@ -362,9 +489,9 @@ export default function Home() {
         >
           <ShieldCheck aria-hidden="true" size={27} strokeWidth={1.6} />
           <p>
-            <strong>Representative mirror gate:</strong> 288 cubes, 4,010,650
-            non-sky voxels across all nine LODs, with zero CPU/GPU
-            disagreements.
+            <strong>A second way to check the answer.</strong> Comparing CPU and
+            GPU terrain generation helps catch hidden errors even when the
+            landscape looks right.
           </p>
         </aside>
       </section>
@@ -995,10 +1122,10 @@ export default function Home() {
               decisions, and what is allowed to ship.
             </p>
             <p>
-              The flight-test-inspired harnesses are a direct response to that
-              workflow: AI increases implementation speed, so independent checks
-              must increase the confidence that speed did not hide a
-              plausible-looking systems bug.
+              I also build the workflow around those agents: reusable skills,
+              application connections, focused developer tools, and repeatable
+              visual reviews. Independent checks help me catch mistakes as the
+              pace of implementation increases.
             </p>
           </div>
         </div>
