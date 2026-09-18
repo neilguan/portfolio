@@ -60,31 +60,31 @@ const voxelScenes = [
 
 const verificationRows = [
   {
-    stage: 'Start small',
+    stage: 'Component tests',
     purpose: 'Catch mistakes before they reach the world.',
     method:
       'Check individual calculations and content rules against known answers.',
   },
   {
-    stage: 'Compare independently',
+    stage: 'Independent instrumentation',
     purpose: 'Find terrain that looks plausible but is calculated incorrectly.',
     method:
       'Generate the same terrain on the CPU and GPU and compare the results.',
   },
   {
-    stage: 'Exercise the whole renderer',
+    stage: 'Integrated ground tests',
     purpose: 'Catch failures where otherwise working components meet.',
     method:
       'Run world loading, terrain generation, mesh creation, and visibility checks together.',
   },
   {
-    stage: 'Fly through the world',
+    stage: 'Flight tests',
     purpose: 'Expose gaps and instability as the landscape streams in.',
     method:
       'Repeat a fast flight path while nearby and distant terrain change detail.',
   },
   {
-    stage: 'Save, reopen, and reconnect',
+    stage: 'Repeat operations',
     purpose: 'Check that progress survives and players see the same world.',
     method:
       'Exercise saved changes, shared gameplay, and players joining an existing session.',
@@ -451,24 +451,24 @@ export default function Home() {
       >
         <div className="case-intro">
           <p className="eyebrow">Verification architecture</p>
-          <h2 id="testing-title">Fast iteration needs trustworthy checks</h2>
+          <h2 id="testing-title">Testing like a flight program</h2>
           <p>
-            A good screenshot cannot tell me whether terrain will disappear
-            during flight or a saved change will survive a restart. I built
-            checks that move from individual calculations to the running world,
-            so AI-assisted changes can be reviewed with more than a visual
-            impression.
+            My work at Boeing informs how I approach verification: start with
+            individual components, exercise connected systems on the ground,
+            then test the complete system under changing conditions. I apply
+            that progression to this engine, from checking terrain calculations
+            to flying through a streaming world and reopening a saved session.
           </p>
         </div>
 
         <div className="table-wrap">
           <table>
-            <caption>What I check, and why it matters</caption>
+            <caption>From component checks to a full-world flight</caption>
             <thead>
               <tr>
-                <th scope="col">Check</th>
+                <th scope="col">Flight-test mindset</th>
                 <th scope="col">Why it matters</th>
-                <th scope="col">How it works</th>
+                <th scope="col">How I apply it to the engine</th>
               </tr>
             </thead>
             <tbody>
