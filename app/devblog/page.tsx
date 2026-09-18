@@ -17,17 +17,17 @@ export default function Devblog() {
           <p>The world combines Voxy-style GPU-driven level-of-detail rendering with Cubic Chunks-style vertical storage. Its unit is a 32³ cube at every level; a cube at level L spans 32 × 2ᴸ blocks. That representation lets distant terrain use coarser data while nearby terrain retains block detail. It also means that coverage, transitions, and residency have to agree as the camera moves.</p>
           <p>The implementation uses Rust, wgpu, and WGSL. The recorded Vulkan choice follows device measurements: a larger maximum buffer and more compute workgroup memory than the tested DX12 path. Individual storage bindings still have a 2 GB limit, so larger pools must be split. These are constraints of the measured target, not a claim that the same backend wins on every machine.</p>
           <p>This design does not make all CPU cost constant. Gameplay, edited blocks, visible creature poses, effects, and UI have their own work and limits. The architecture explicitly distinguishes the fixed terrain-dispatch path from those additional costs.</p>
-          <p className="engineering-sources"><span>Source record</span><a href="/devblog-evidence/engine-architecture.md">Architecture, device measurements, and representation</a></p>
+          <p className="engineering-sources"><span>Source record</span><a href={`${import.meta.env.BASE_URL}devblog-evidence/engine-architecture.md`}>Architecture, device measurements, and representation</a></p>
         </section>
         <section id="state" className="engineering-section"><p className="engineering-number">02 / World state</p><h2>Save canonical edits and keep shared authority independent of rendering</h2>
           <p>Saving a large procedural world does not require serializing every generated chunk or mesh. The persistence layer stores the seed and world metadata, player records, creature checkpoints, and canonical block overrides—including air left by mining. Natural terrain and render data regenerate, then the saved changes enter the ordinary upload and invalidation path.</p>
           <p>This keeps durable state separate from the camera’s current terrain residency. It also creates a boundary the multiplayer implementation can use: the host owns gameplay and accepted changes; each client owns its local graphics and terrain residency. Prediction cannot award items or commit speculative world edits.</p>
           <p>There are consequences to that separation. Save formats need explicit migration, changed blocks must survive regeneration, and reconnecting players need consistent state even if their renderer has loaded a different set of cubes. The persistence and multiplayer records describe those contracts and the remaining limitations rather than inferring correctness from a single-player session.</p>
-          <p className="engineering-sources"><span>Source records</span><a href="/devblog-evidence/world-persistence.md">Persistence format and recovery</a><a href="/devblog-evidence/multiplayer.md">Host authority, replication, and reconnect</a></p>
+          <p className="engineering-sources"><span>Source records</span><a href={`${import.meta.env.BASE_URL}devblog-evidence/world-persistence.md`}>Persistence format and recovery</a><a href={`${import.meta.env.BASE_URL}devblog-evidence/multiplayer.md`}>Host authority, replication, and reconnect</a></p>
         </section>
         <section id="assets" className="engineering-section"><p className="engineering-number">03 / Asset experiments</p><h2>The decisions behind sound, pixels, structures, and creatures</h2>
           <p>I tried multiple representations and tools rather than arrive at a single asset pipeline upfront. The pages below follow the actual experiments. A rejected route stays in the account because its failure explains the next choice.</p>
-          <div className="engineering-chapters">{routes.map(([key,slug],i)=><a href={`/devblog/${slug}`} key={key}><span className="engineering-number">0{i+1} / {devblogTopics[key].label}</span><h3>{devblogTopics[key].title}</h3><p>{devblogTopics[key].dek}</p><span className="engineering-read">Read the experiment record →</span></a>)}</div>
+          <div className="engineering-chapters">{routes.map(([key,slug],i)=><a href={`${import.meta.env.BASE_URL}devblog/${slug}/`} key={key}><span className="engineering-number">0{i+1} / {devblogTopics[key].label}</span><h3>{devblogTopics[key].title}</h3><p>{devblogTopics[key].dek}</p><span className="engineering-read">Read the experiment record →</span></a>)}</div>
         </section>
         <section id="mcp" className="engineering-section"><p className="engineering-number">04 / Skills and tool interfaces</p><h2>Skills preserve the workflow; MCP exposes the tools to carry it out</h2>
           <p>I used skills to carry useful decisions from one experiment into the next. The creature-texture-library skill describes the box anatomy, shared image sheet, PixelOE conversion, and face crops. The creature-encounter-lab skill guides motion in a representative encounter. These instructions give the agent a concrete process instead of requiring me to explain the same expectations each time.</p>
@@ -44,7 +44,7 @@ export default function Devblog() {
           </tbody></table></div>
           <p>The records include results at different stages. Cinder has an accepted static model and a replayable motion study; that does not establish its native controller integration. The audio bank has provenance and level checks; those do not approve every recording by ear. The airship has an accepted static review; those images do not show a playable location.</p>
         </section>
-        <footer className="engineering-article-footer"><a href="/">Back to portfolio</a></footer>
+        <footer className="engineering-article-footer"><a href={import.meta.env.BASE_URL}>Back to portfolio</a></footer>
       </article>
     </div>
   </main>;

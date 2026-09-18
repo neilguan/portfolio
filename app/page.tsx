@@ -168,7 +168,7 @@ export default function Home() {
           <a href="#haptics">Haptic gloves</a>
           <a href="#hardware">Longboard</a>
           <a href="#workflow">AI workflow</a>
-          <a href="/devblog">Devblog ↗</a>
+          <a href={`${import.meta.env.BASE_URL}devblog/`}>Devblog</a>
         </nav>
       </header>
 
@@ -359,7 +359,7 @@ export default function Home() {
                 the work toward improving the build itself. Adapting that
                 foundation to terrain and survival play is the next step.
               </p>
-              <a href="/devblog/structures">See the airship iterations ↗</a>
+              <a href={`${import.meta.env.BASE_URL}devblog/structures/`}>See the airship iterations</a>
             </article>
             <article>
               <span className="tooling-index">02 / Models & motion</span>
@@ -370,7 +370,7 @@ export default function Home() {
                 local. Saved views and motion previews make it easier to revise
                 a pose or joint without starting the model again.
               </p>
-              <a href="/devblog/rigging">Explore creature development ↗</a>
+              <a href={`${import.meta.env.BASE_URL}devblog/rigging/`}>Explore creature development</a>
             </article>
             <article>
               <span className="tooling-index">03 / Pixel art</span>
@@ -381,7 +381,7 @@ export default function Home() {
                 own layer while the character stays intact; frame previews make
                 the feedback specific.
               </p>
-              <a href="/devblog/pixel-art">See the sprite workflow ↗</a>
+              <a href={`${import.meta.env.BASE_URL}devblog/pixel-art/`}>See the sprite workflow</a>
             </article>
             <article>
               <span className="tooling-index">04 / Sound</span>
@@ -392,7 +392,7 @@ export default function Home() {
                 and level adjustment handle the mechanical steps, while
                 listening guides the choice of sound.
               </p>
-              <a href="/devblog/audio">Explore the audio experiments ↗</a>
+              <a href={`${import.meta.env.BASE_URL}devblog/audio/`}>Explore the audio experiments</a>
             </article>
           </div>
           <figure className="sprite-workflow">
