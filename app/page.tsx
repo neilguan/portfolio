@@ -162,8 +162,8 @@ export default function Home() {
           Neil Guan
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#work">GPU engine</a>
           <a href="#research">Research</a>
+          <a href="#work">GPU engine</a>
           <a href="#systems">Qwen</a>
           <a href="#haptics">Haptic gloves</a>
           <a href="#hardware">Longboard</a>
@@ -179,6 +179,258 @@ export default function Home() {
           I build GPU software, robotics research, local AI infrastructure, and
           hardware—and design the tests that make ambitious work credible.
         </p>
+      </section>
+
+      <section
+        className="research-section"
+        id="research"
+        aria-labelledby="research-title"
+      >
+        <div className="section-heading compact-heading centered-heading">
+          <div>
+            <p className="eyebrow">Published research</p>
+            <p className="project-kicker">
+              Ubiquitous Robots 2024 · First author
+            </p>
+          </div>
+          <h2 id="research-title">Closing the sim-to-real gap</h2>
+        </div>
+
+        <article className="paper-card">
+          <div className="publication-status" aria-label="Publication status">
+            <span>Peer-reviewed</span>
+            <span>IEEE conference paper</span>
+            <span>UR 2024</span>
+            <span>First author</span>
+          </div>
+
+          <div className="paper-main">
+            <div className="project-icon" aria-hidden="true">
+              <FileText size={28} strokeWidth={1.6} />
+            </div>
+            <h3>
+              Impedance Matching: Enabling an RL-Based Running Jump in a
+              Quadruped Robot
+            </h3>
+            <p className="authors">
+              Neil Guan, Shangqun Yu, Shifan Zhu, and Donghyun Kim
+            </p>
+            <p className="paper-deck">
+              Reinforcement-learning policies can look capable in simulation and
+              become inconsistent on hardware because the simulated joints do
+              not respond like the real machine. We measured that mismatch,
+              tuned the simulation to the evidence, and transferred a
+              running-jump policy to a 12 kg Mini-Cheetah Vision robot.
+            </p>
+
+            <p className="publication-record">
+              This is not a private project report. It was reviewed and accepted
+              as a regular paper at the 2024 21st International Conference on
+              Ubiquitous Robots, then published in IEEE Xplore. It is part of
+              the field&apos;s shared research record: work that other
+              researchers can inspect, cite, test, and build upon.
+            </p>
+
+            <figure className="paper-figure paper-figure-jump">
+              <img
+                src="./paper-jump-sequence.jpg"
+                alt="Published sequence showing the Mini-Cheetah robot accelerating, jumping across a marked gap, and landing"
+                loading="lazy"
+              />
+              <figcaption>
+                Published Figure 1 · The learned policy transitions from running
+                to a physical jump and landing on the real robot.
+              </figcaption>
+            </figure>
+
+            <div className="paper-explanation-grid">
+              <section aria-labelledby="method-title">
+                <p className="paper-label">The method</p>
+                <h4 id="method-title">Measure first, then train</h4>
+                <ol className="paper-method">
+                  <li>
+                    <span>01</span>
+                    <div>
+                      <strong>Excite the real joints</strong>
+                      <p>
+                        A 0.1–25 Hz chirp test records how each joint follows a
+                        commanded motion.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <span>02</span>
+                    <div>
+                      <strong>Match the simulation</strong>
+                      <p>
+                        Bode magnitude plots and a 50 × 50 gain search identify
+                        simulated PD gains with similar bandwidth and overshoot.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <span>03</span>
+                    <div>
+                      <strong>Randomize around evidence</strong>
+                      <p>
+                        The measured values and variance define focused training
+                        ranges before the policy touches the robot.
+                      </p>
+                    </div>
+                  </li>
+                </ol>
+              </section>
+
+              <aside className="field-impact" aria-labelledby="impact-title">
+                <p className="paper-label">Why it matters to robotics</p>
+                <h4 id="impact-title">
+                  It replaces a tuning guess with an experiment.
+                </h4>
+                <p>
+                  Domain randomization is often chosen by intuition: vary enough
+                  simulated properties and hope reality falls inside the range.
+                  Ranges that are too broad or centered on the wrong model can
+                  make learning harder and transfer less consistent.
+                </p>
+                <p>
+                  Impedance matching connects classical frequency-response
+                  measurement with modern robot learning. It gives researchers a
+                  repeatable basis for deciding what the simulator should
+                  reproduce and how much uncertainty training should
+                  cover—reducing risky trial-and-error on physical hardware.
+                </p>
+              </aside>
+            </div>
+
+            <figure className="paper-figure paper-figure-analysis">
+              <img
+                src="./paper-frequency-analysis.png"
+                alt="Published experimental workflow showing a fixed robot joint, chirp signal, Bode plot comparison, simulation, and frequency analysis across all joints"
+                loading="lazy"
+              />
+              <figcaption>
+                Published Figure 2 · Real and simulated joints are compared in
+                the frequency domain; the best-fit simulation follows the
+                measured robot near its natural frequency.
+              </figcaption>
+            </figure>
+
+            <div
+              className="research-contribution"
+              aria-labelledby="contribution-title"
+            >
+              <div>
+                <p className="paper-label">What the field gained</p>
+                <h4 id="contribution-title">
+                  A method, a modeling result, and a reusable training strategy
+                </h4>
+              </div>
+              <ul>
+                <li>
+                  A frequency-domain procedure for selecting simulation gains
+                  and defensible domain-randomization bounds.
+                </li>
+                <li>
+                  Evidence that modeled rotor inertia is essential to
+                  reproducing the hardware&apos;s high-frequency response.
+                </li>
+                <li>
+                  A modified Net2Net curriculum that adds jumping while
+                  preserving an existing walking skill, without reference
+                  motions.
+                </li>
+              </ul>
+            </div>
+
+            <dl className="paper-results">
+              <div>
+                <dt>55 cm</dt>
+                <dd>maximum cleared gap</dd>
+              </div>
+              <div>
+                <dt>38 cm</dt>
+                <dd>jump height</dd>
+              </div>
+              <div>
+                <dt>2 m/s</dt>
+                <dd>stable walking</dd>
+              </div>
+              <div>
+                <dt>2.3×</dt>
+                <dd>less jump-distance variation than naive tuning</dd>
+              </div>
+            </dl>
+            <div className="paper-footer">
+              <div>
+                <strong>
+                  <span aria-live="polite">{citationCount}</span> tracked
+                  citations
+                </strong>
+                <p className="citation-note">
+                  Refreshes from Semantic Scholar when its index reports a
+                  higher total{citationChecked ? ' · index checked' : ''}.
+                </p>
+              </div>
+              <div className="paper-links">
+                <a
+                  className="project-link"
+                  href="https://ieeexplore.ieee.org/document/10597522"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View the IEEE publication{' '}
+                  <ArrowUpRight aria-hidden="true" size={17} />
+                </a>
+                <a
+                  className="project-link"
+                  href="https://arxiv.org/abs/2404.15096"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Read the open paper{' '}
+                  <ArrowUpRight aria-hidden="true" size={17} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="video-grid" aria-label="Research demonstrations">
+            <a
+              className="video-card"
+              href="https://www.youtube.com/watch?v=sz7GK5xcZuk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./robot-robustness.jpg"
+                alt="A quadruped robot resisting a physical kick during a robustness test"
+                loading="lazy"
+              />
+              <span>
+                <strong>Kicking a robot dog to demonstrate adaptability</strong>
+                <small>Robustness test · YouTube</small>
+              </span>
+              <ArrowUpRight aria-hidden="true" size={17} />
+            </a>
+            <a
+              className="video-card"
+              href="https://www.youtube.com/watch?v=gfBKeheAI8Y"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="./sim-to-real.jpg"
+                alt="A quadruped robot performing a learned running jump"
+                loading="lazy"
+              />
+              <span>
+                <strong>The robot dog jumps: sim-to-real transfer</strong>
+                <small>Running-jump test · YouTube</small>
+              </span>
+              <ArrowUpRight aria-hidden="true" size={17} />
+            </a>
+          </div>
+        </article>
       </section>
 
       <section className="work-section" id="work" aria-labelledby="work-title">
@@ -494,258 +746,6 @@ export default function Home() {
             landscape looks right.
           </p>
         </aside>
-      </section>
-
-      <section
-        className="research-section"
-        id="research"
-        aria-labelledby="research-title"
-      >
-        <div className="section-heading compact-heading centered-heading">
-          <div>
-            <p className="eyebrow">Published research</p>
-            <p className="project-kicker">
-              Ubiquitous Robots 2024 · First author
-            </p>
-          </div>
-          <h2 id="research-title">Closing the sim-to-real gap</h2>
-        </div>
-
-        <article className="paper-card">
-          <div className="publication-status" aria-label="Publication status">
-            <span>Peer-reviewed</span>
-            <span>IEEE conference paper</span>
-            <span>UR 2024</span>
-            <span>First author</span>
-          </div>
-
-          <div className="paper-main">
-            <div className="project-icon" aria-hidden="true">
-              <FileText size={28} strokeWidth={1.6} />
-            </div>
-            <h3>
-              Impedance Matching: Enabling an RL-Based Running Jump in a
-              Quadruped Robot
-            </h3>
-            <p className="authors">
-              Neil Guan, Shangqun Yu, Shifan Zhu, and Donghyun Kim
-            </p>
-            <p className="paper-deck">
-              Reinforcement-learning policies can look capable in simulation and
-              become inconsistent on hardware because the simulated joints do
-              not respond like the real machine. We measured that mismatch,
-              tuned the simulation to the evidence, and transferred a
-              running-jump policy to a 12 kg Mini-Cheetah Vision robot.
-            </p>
-
-            <p className="publication-record">
-              This is not a private project report. It was reviewed and accepted
-              as a regular paper at the 2024 21st International Conference on
-              Ubiquitous Robots, then published in IEEE Xplore. It is part of
-              the field&apos;s shared research record: work that other
-              researchers can inspect, cite, test, and build upon.
-            </p>
-
-            <figure className="paper-figure paper-figure-jump">
-              <img
-                src="./paper-jump-sequence.jpg"
-                alt="Published sequence showing the Mini-Cheetah robot accelerating, jumping across a marked gap, and landing"
-                loading="lazy"
-              />
-              <figcaption>
-                Published Figure 1 · The learned policy transitions from running
-                to a physical jump and landing on the real robot.
-              </figcaption>
-            </figure>
-
-            <div className="paper-explanation-grid">
-              <section aria-labelledby="method-title">
-                <p className="paper-label">The method</p>
-                <h4 id="method-title">Measure first, then train</h4>
-                <ol className="paper-method">
-                  <li>
-                    <span>01</span>
-                    <div>
-                      <strong>Excite the real joints</strong>
-                      <p>
-                        A 0.1–25 Hz chirp test records how each joint follows a
-                        commanded motion.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <span>02</span>
-                    <div>
-                      <strong>Match the simulation</strong>
-                      <p>
-                        Bode magnitude plots and a 50 × 50 gain search identify
-                        simulated PD gains with similar bandwidth and overshoot.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <span>03</span>
-                    <div>
-                      <strong>Randomize around evidence</strong>
-                      <p>
-                        The measured values and variance define focused training
-                        ranges before the policy touches the robot.
-                      </p>
-                    </div>
-                  </li>
-                </ol>
-              </section>
-
-              <aside className="field-impact" aria-labelledby="impact-title">
-                <p className="paper-label">Why it matters to robotics</p>
-                <h4 id="impact-title">
-                  It replaces a tuning guess with an experiment.
-                </h4>
-                <p>
-                  Domain randomization is often chosen by intuition: vary enough
-                  simulated properties and hope reality falls inside the range.
-                  Ranges that are too broad or centered on the wrong model can
-                  make learning harder and transfer less consistent.
-                </p>
-                <p>
-                  Impedance matching connects classical frequency-response
-                  measurement with modern robot learning. It gives researchers a
-                  repeatable basis for deciding what the simulator should
-                  reproduce and how much uncertainty training should
-                  cover—reducing risky trial-and-error on physical hardware.
-                </p>
-              </aside>
-            </div>
-
-            <figure className="paper-figure paper-figure-analysis">
-              <img
-                src="./paper-frequency-analysis.png"
-                alt="Published experimental workflow showing a fixed robot joint, chirp signal, Bode plot comparison, simulation, and frequency analysis across all joints"
-                loading="lazy"
-              />
-              <figcaption>
-                Published Figure 2 · Real and simulated joints are compared in
-                the frequency domain; the best-fit simulation follows the
-                measured robot near its natural frequency.
-              </figcaption>
-            </figure>
-
-            <div
-              className="research-contribution"
-              aria-labelledby="contribution-title"
-            >
-              <div>
-                <p className="paper-label">What the field gained</p>
-                <h4 id="contribution-title">
-                  A method, a modeling result, and a reusable training strategy
-                </h4>
-              </div>
-              <ul>
-                <li>
-                  A frequency-domain procedure for selecting simulation gains
-                  and defensible domain-randomization bounds.
-                </li>
-                <li>
-                  Evidence that modeled rotor inertia is essential to
-                  reproducing the hardware&apos;s high-frequency response.
-                </li>
-                <li>
-                  A modified Net2Net curriculum that adds jumping while
-                  preserving an existing walking skill, without reference
-                  motions.
-                </li>
-              </ul>
-            </div>
-
-            <dl className="paper-results">
-              <div>
-                <dt>55 cm</dt>
-                <dd>maximum cleared gap</dd>
-              </div>
-              <div>
-                <dt>38 cm</dt>
-                <dd>jump height</dd>
-              </div>
-              <div>
-                <dt>2 m/s</dt>
-                <dd>stable walking</dd>
-              </div>
-              <div>
-                <dt>2.3×</dt>
-                <dd>less jump-distance variation than naive tuning</dd>
-              </div>
-            </dl>
-            <div className="paper-footer">
-              <div>
-                <strong>
-                  <span aria-live="polite">{citationCount}</span> tracked
-                  citations
-                </strong>
-                <p className="citation-note">
-                  Refreshes from Semantic Scholar when its index reports a
-                  higher total{citationChecked ? ' · index checked' : ''}.
-                </p>
-              </div>
-              <div className="paper-links">
-                <a
-                  className="project-link"
-                  href="https://ieeexplore.ieee.org/document/10597522"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View the IEEE publication{' '}
-                  <ArrowUpRight aria-hidden="true" size={17} />
-                </a>
-                <a
-                  className="project-link"
-                  href="https://arxiv.org/abs/2404.15096"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Read the open paper{' '}
-                  <ArrowUpRight aria-hidden="true" size={17} />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="video-grid" aria-label="Research demonstrations">
-            <a
-              className="video-card"
-              href="https://www.youtube.com/watch?v=sz7GK5xcZuk"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="./robot-robustness.jpg"
-                alt="A quadruped robot resisting a physical kick during a robustness test"
-                loading="lazy"
-              />
-              <span>
-                <strong>Kicking a robot dog to demonstrate adaptability</strong>
-                <small>Robustness test · YouTube</small>
-              </span>
-              <ArrowUpRight aria-hidden="true" size={17} />
-            </a>
-            <a
-              className="video-card"
-              href="https://www.youtube.com/watch?v=gfBKeheAI8Y"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src="./sim-to-real.jpg"
-                alt="A quadruped robot performing a learned running jump"
-                loading="lazy"
-              />
-              <span>
-                <strong>The robot dog jumps: sim-to-real transfer</strong>
-                <small>Running-jump test · YouTube</small>
-              </span>
-              <ArrowUpRight aria-hidden="true" size={17} />
-            </a>
-          </div>
-        </article>
       </section>
 
       <section
